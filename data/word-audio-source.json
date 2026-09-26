@@ -1,0 +1,4402 @@
+[
+  {
+    "kana": "さくら",
+    "file": "audio/words/0001.mp3"
+  },
+  {
+    "kana": "ねこ",
+    "file": "audio/words/0002.mp3"
+  },
+  {
+    "kana": "でんしゃ",
+    "file": "audio/words/0003.mp3"
+  },
+  {
+    "kana": "がっこう",
+    "file": "audio/words/0004.mp3"
+  },
+  {
+    "kana": "せんせい",
+    "file": "audio/words/0005.mp3"
+  },
+  {
+    "kana": "にほんご",
+    "file": "audio/words/0006.mp3"
+  },
+  {
+    "kana": "おはよう",
+    "file": "audio/words/0007.mp3"
+  },
+  {
+    "kana": "ありがとう",
+    "file": "audio/words/0008.mp3"
+  },
+  {
+    "kana": "ともだち",
+    "file": "audio/words/0009.mp3"
+  },
+  {
+    "kana": "たべもの",
+    "file": "audio/words/0010.mp3"
+  },
+  {
+    "kana": "みず",
+    "file": "audio/words/0011.mp3"
+  },
+  {
+    "kana": "ひこうき",
+    "file": "audio/words/0012.mp3"
+  },
+  {
+    "kana": "じてんしゃ",
+    "file": "audio/words/0013.mp3"
+  },
+  {
+    "kana": "きっさてん",
+    "file": "audio/words/0014.mp3"
+  },
+  {
+    "kana": "としょかん",
+    "file": "audio/words/0015.mp3"
+  },
+  {
+    "kana": "しんぶん",
+    "file": "audio/words/0016.mp3"
+  },
+  {
+    "kana": "りょこう",
+    "file": "audio/words/0017.mp3"
+  },
+  {
+    "kana": "やさい",
+    "file": "audio/words/0018.mp3"
+  },
+  {
+    "kana": "くだもの",
+    "file": "audio/words/0019.mp3"
+  },
+  {
+    "kana": "おんがく",
+    "file": "audio/words/0020.mp3"
+  },
+  {
+    "kana": "あさって",
+    "file": "audio/words/0021.mp3"
+  },
+  {
+    "kana": "あそこ",
+    "file": "audio/words/0022.mp3"
+  },
+  {
+    "kana": "あちら",
+    "file": "audio/words/0023.mp3"
+  },
+  {
+    "kana": "あっち",
+    "file": "audio/words/0024.mp3"
+  },
+  {
+    "kana": "あなた",
+    "file": "audio/words/0025.mp3"
+  },
+  {
+    "kana": "あの",
+    "file": "audio/words/0026.mp3"
+  },
+  {
+    "kana": "あぱあと",
+    "file": "audio/words/0027.mp3"
+  },
+  {
+    "kana": "あびる",
+    "file": "audio/words/0028.mp3"
+  },
+  {
+    "kana": "あまり",
+    "file": "audio/words/0029.mp3"
+  },
+  {
+    "kana": "ある",
+    "file": "audio/words/0030.mp3"
+  },
+  {
+    "kana": "あれ",
+    "file": "audio/words/0031.mp3"
+  },
+  {
+    "kana": "いいえ",
+    "file": "audio/words/0032.mp3"
+  },
+  {
+    "kana": "いかが",
+    "file": "audio/words/0033.mp3"
+  },
+  {
+    "kana": "いくつ",
+    "file": "audio/words/0034.mp3"
+  },
+  {
+    "kana": "いくら",
+    "file": "audio/words/0035.mp3"
+  },
+  {
+    "kana": "いす",
+    "file": "audio/words/0036.mp3"
+  },
+  {
+    "kana": "いちばん",
+    "file": "audio/words/0037.mp3"
+  },
+  {
+    "kana": "いつ",
+    "file": "audio/words/0038.mp3"
+  },
+  {
+    "kana": "いつも",
+    "file": "audio/words/0039.mp3"
+  },
+  {
+    "kana": "いろいろ",
+    "file": "audio/words/0040.mp3"
+  },
+  {
+    "kana": "ええ",
+    "file": "audio/words/0041.mp3"
+  },
+  {
+    "kana": "えれべえたあ",
+    "file": "audio/words/0042.mp3"
+  },
+  {
+    "kana": "おいしい",
+    "file": "audio/words/0043.mp3"
+  },
+  {
+    "kana": "おなか",
+    "file": "audio/words/0044.mp3"
+  },
+  {
+    "kana": "おばあさん",
+    "file": "audio/words/0045.mp3"
+  },
+  {
+    "kana": "おまわりさん",
+    "file": "audio/words/0046.mp3"
+  },
+  {
+    "kana": "おもしろい",
+    "file": "audio/words/0047.mp3"
+  },
+  {
+    "kana": "おかし",
+    "file": "audio/words/0048.mp3"
+  },
+  {
+    "kana": "おかね",
+    "file": "audio/words/0049.mp3"
+  },
+  {
+    "kana": "おにいさん",
+    "file": "audio/words/0050.mp3"
+  },
+  {
+    "kana": "おさら",
+    "file": "audio/words/0051.mp3"
+  },
+  {
+    "kana": "おねえさん",
+    "file": "audio/words/0052.mp3"
+  },
+  {
+    "kana": "おてあらい",
+    "file": "audio/words/0053.mp3"
+  },
+  {
+    "kana": "おさけ",
+    "file": "audio/words/0054.mp3"
+  },
+  {
+    "kana": "おちゃ",
+    "file": "audio/words/0055.mp3"
+  },
+  {
+    "kana": "おとうさん",
+    "file": "audio/words/0056.mp3"
+  },
+  {
+    "kana": "おふろ",
+    "file": "audio/words/0057.mp3"
+  },
+  {
+    "kana": "おべんとう",
+    "file": "audio/words/0058.mp3"
+  },
+  {
+    "kana": "おかあさん",
+    "file": "audio/words/0059.mp3"
+  },
+  {
+    "kana": "かかる",
+    "file": "audio/words/0060.mp3"
+  },
+  {
+    "kana": "かぎ",
+    "file": "audio/words/0061.mp3"
+  },
+  {
+    "kana": "かける",
+    "file": "audio/words/0062.mp3"
+  },
+  {
+    "kana": "かっぷ",
+    "file": "audio/words/0063.mp3"
+  },
+  {
+    "kana": "かばん",
+    "file": "audio/words/0064.mp3"
+  },
+  {
+    "kana": "かめら",
+    "file": "audio/words/0065.mp3"
+  },
+  {
+    "kana": "かれえ",
+    "file": "audio/words/0066.mp3"
+  },
+  {
+    "kana": "かれんだあ",
+    "file": "audio/words/0067.mp3"
+  },
+  {
+    "kana": "かわいい",
+    "file": "audio/words/0068.mp3"
+  },
+  {
+    "kana": "ぎたあ",
+    "file": "audio/words/0069.mp3"
+  },
+  {
+    "kana": "きれい",
+    "file": "audio/words/0070.mp3"
+  },
+  {
+    "kana": "ください",
+    "file": "audio/words/0071.mp3"
+  },
+  {
+    "kana": "くらす",
+    "file": "audio/words/0072.mp3"
+  },
+  {
+    "kana": "ぐらむ",
+    "file": "audio/words/0073.mp3"
+  },
+  {
+    "kana": "こうと",
+    "file": "audio/words/0074.mp3"
+  },
+  {
+    "kana": "こうひい",
+    "file": "audio/words/0075.mp3"
+  },
+  {
+    "kana": "ここ",
+    "file": "audio/words/0076.mp3"
+  },
+  {
+    "kana": "こちら",
+    "file": "audio/words/0077.mp3"
+  },
+  {
+    "kana": "こっち",
+    "file": "audio/words/0078.mp3"
+  },
+  {
+    "kana": "こっぷ",
+    "file": "audio/words/0079.mp3"
+  },
+  {
+    "kana": "この",
+    "file": "audio/words/0080.mp3"
+  },
+  {
+    "kana": "こぴいする",
+    "file": "audio/words/0081.mp3"
+  },
+  {
+    "kana": "これ",
+    "file": "audio/words/0082.mp3"
+  },
+  {
+    "kana": "こんな",
+    "file": "audio/words/0083.mp3"
+  },
+  {
+    "kana": "さあ",
+    "file": "audio/words/0084.mp3"
+  },
+  {
+    "kana": "さらいねん",
+    "file": "audio/words/0085.mp3"
+  },
+  {
+    "kana": "しかし",
+    "file": "audio/words/0086.mp3"
+  },
+  {
+    "kana": "しゃつ",
+    "file": "audio/words/0087.mp3"
+  },
+  {
+    "kana": "しゃわあ",
+    "file": "audio/words/0088.mp3"
+  },
+  {
+    "kana": "しょうゆ",
+    "file": "audio/words/0089.mp3"
+  },
+  {
+    "kana": "すかあと",
+    "file": "audio/words/0090.mp3"
+  },
+  {
+    "kana": "すぐに",
+    "file": "audio/words/0091.mp3"
+  },
+  {
+    "kana": "すとうぶ",
+    "file": "audio/words/0092.mp3"
+  },
+  {
+    "kana": "すぷうん",
+    "file": "audio/words/0093.mp3"
+  },
+  {
+    "kana": "すぽうつ",
+    "file": "audio/words/0094.mp3"
+  },
+  {
+    "kana": "ずぼん",
+    "file": "audio/words/0095.mp3"
+  },
+  {
+    "kana": "すりっぱ",
+    "file": "audio/words/0096.mp3"
+  },
+  {
+    "kana": "する",
+    "file": "audio/words/0097.mp3"
+  },
+  {
+    "kana": "せえたあ",
+    "file": "audio/words/0098.mp3"
+  },
+  {
+    "kana": "せっけん",
+    "file": "audio/words/0099.mp3"
+  },
+  {
+    "kana": "ぜろ",
+    "file": "audio/words/0100.mp3"
+  },
+  {
+    "kana": "そこ",
+    "file": "audio/words/0101.mp3"
+  },
+  {
+    "kana": "そちら",
+    "file": "audio/words/0102.mp3"
+  },
+  {
+    "kana": "そっち",
+    "file": "audio/words/0103.mp3"
+  },
+  {
+    "kana": "その",
+    "file": "audio/words/0104.mp3"
+  },
+  {
+    "kana": "そば",
+    "file": "audio/words/0105.mp3"
+  },
+  {
+    "kana": "それ",
+    "file": "audio/words/0106.mp3"
+  },
+  {
+    "kana": "それから",
+    "file": "audio/words/0107.mp3"
+  },
+  {
+    "kana": "それでは",
+    "file": "audio/words/0108.mp3"
+  },
+  {
+    "kana": "たいへん",
+    "file": "audio/words/0109.mp3"
+  },
+  {
+    "kana": "たくさん",
+    "file": "audio/words/0110.mp3"
+  },
+  {
+    "kana": "たくしい",
+    "file": "audio/words/0111.mp3"
+  },
+  {
+    "kana": "たて",
+    "file": "audio/words/0112.mp3"
+  },
+  {
+    "kana": "たばこ",
+    "file": "audio/words/0113.mp3"
+  },
+  {
+    "kana": "たぶん",
+    "file": "audio/words/0114.mp3"
+  },
+  {
+    "kana": "だんだん",
+    "file": "audio/words/0115.mp3"
+  },
+  {
+    "kana": "ちゃわん",
+    "file": "audio/words/0116.mp3"
+  },
+  {
+    "kana": "ちょうど",
+    "file": "audio/words/0117.mp3"
+  },
+  {
+    "kana": "ちょっと",
+    "file": "audio/words/0118.mp3"
+  },
+  {
+    "kana": "つける",
+    "file": "audio/words/0119.mp3"
+  },
+  {
+    "kana": "つまらない",
+    "file": "audio/words/0120.mp3"
+  },
+  {
+    "kana": "てえぷ",
+    "file": "audio/words/0121.mp3"
+  },
+  {
+    "kana": "てえぶる",
+    "file": "audio/words/0122.mp3"
+  },
+  {
+    "kana": "てえぷれこうだあ",
+    "file": "audio/words/0123.mp3"
+  },
+  {
+    "kana": "できる",
+    "file": "audio/words/0124.mp3"
+  },
+  {
+    "kana": "てすと",
+    "file": "audio/words/0125.mp3"
+  },
+  {
+    "kana": "では",
+    "file": "audio/words/0126.mp3"
+  },
+  {
+    "kana": "でぱあと",
+    "file": "audio/words/0127.mp3"
+  },
+  {
+    "kana": "でも",
+    "file": "audio/words/0128.mp3"
+  },
+  {
+    "kana": "てれび",
+    "file": "audio/words/0129.mp3"
+  },
+  {
+    "kana": "どあ",
+    "file": "audio/words/0130.mp3"
+  },
+  {
+    "kana": "といれ",
+    "file": "audio/words/0131.mp3"
+  },
+  {
+    "kana": "どう",
+    "file": "audio/words/0132.mp3"
+  },
+  {
+    "kana": "どうして",
+    "file": "audio/words/0133.mp3"
+  },
+  {
+    "kana": "どうぞ",
+    "file": "audio/words/0134.mp3"
+  },
+  {
+    "kana": "どうも",
+    "file": "audio/words/0135.mp3"
+  },
+  {
+    "kana": "どこ",
+    "file": "audio/words/0136.mp3"
+  },
+  {
+    "kana": "どちら",
+    "file": "audio/words/0137.mp3"
+  },
+  {
+    "kana": "どっち",
+    "file": "audio/words/0138.mp3"
+  },
+  {
+    "kana": "とても",
+    "file": "audio/words/0139.mp3"
+  },
+  {
+    "kana": "どなた",
+    "file": "audio/words/0140.mp3"
+  },
+  {
+    "kana": "どの",
+    "file": "audio/words/0141.mp3"
+  },
+  {
+    "kana": "とりにく",
+    "file": "audio/words/0142.mp3"
+  },
+  {
+    "kana": "どれ",
+    "file": "audio/words/0143.mp3"
+  },
+  {
+    "kana": "ないふ",
+    "file": "audio/words/0144.mp3"
+  },
+  {
+    "kana": "なぜ",
+    "file": "audio/words/0145.mp3"
+  },
+  {
+    "kana": "など",
+    "file": "audio/words/0146.mp3"
+  },
+  {
+    "kana": "なる",
+    "file": "audio/words/0147.mp3"
+  },
+  {
+    "kana": "にゅうす",
+    "file": "audio/words/0148.mp3"
+  },
+  {
+    "kana": "ねくたい",
+    "file": "audio/words/0149.mp3"
+  },
+  {
+    "kana": "のうと",
+    "file": "audio/words/0150.mp3"
+  },
+  {
+    "kana": "ぱあてぃい",
+    "file": "audio/words/0151.mp3"
+  },
+  {
+    "kana": "はい",
+    "file": "audio/words/0152.mp3"
+  },
+  {
+    "kana": "はく",
+    "file": "audio/words/0153.mp3"
+  },
+  {
+    "kana": "はし",
+    "file": "audio/words/0154.mp3"
+  },
+  {
+    "kana": "ばす",
+    "file": "audio/words/0155.mp3"
+  },
+  {
+    "kana": "ばたあ",
+    "file": "audio/words/0156.mp3"
+  },
+  {
+    "kana": "ぱん",
+    "file": "audio/words/0157.mp3"
+  },
+  {
+    "kana": "はんかち",
+    "file": "audio/words/0158.mp3"
+  },
+  {
+    "kana": "ふぃるむ",
+    "file": "audio/words/0159.mp3"
+  },
+  {
+    "kana": "ぷうる",
+    "file": "audio/words/0160.mp3"
+  },
+  {
+    "kana": "ふぉうく",
+    "file": "audio/words/0161.mp3"
+  },
+  {
+    "kana": "ふろ",
+    "file": "audio/words/0162.mp3"
+  },
+  {
+    "kana": "ぺえじ",
+    "file": "audio/words/0163.mp3"
+  },
+  {
+    "kana": "べっど",
+    "file": "audio/words/0164.mp3"
+  },
+  {
+    "kana": "ぺっと",
+    "file": "audio/words/0165.mp3"
+  },
+  {
+    "kana": "ぺん",
+    "file": "audio/words/0166.mp3"
+  },
+  {
+    "kana": "ぼうるぺん",
+    "file": "audio/words/0167.mp3"
+  },
+  {
+    "kana": "ほか",
+    "file": "audio/words/0168.mp3"
+  },
+  {
+    "kana": "ぽけっと",
+    "file": "audio/words/0169.mp3"
+  },
+  {
+    "kana": "ぽすと",
+    "file": "audio/words/0170.mp3"
+  },
+  {
+    "kana": "ぼたん",
+    "file": "audio/words/0171.mp3"
+  },
+  {
+    "kana": "ほてる",
+    "file": "audio/words/0172.mp3"
+  },
+  {
+    "kana": "ほんとう",
+    "file": "audio/words/0173.mp3"
+  },
+  {
+    "kana": "まずい",
+    "file": "audio/words/0174.mp3"
+  },
+  {
+    "kana": "また",
+    "file": "audio/words/0175.mp3"
+  },
+  {
+    "kana": "まだ",
+    "file": "audio/words/0176.mp3"
+  },
+  {
+    "kana": "まっすぐ",
+    "file": "audio/words/0177.mp3"
+  },
+  {
+    "kana": "まっち",
+    "file": "audio/words/0178.mp3"
+  },
+  {
+    "kana": "みんな",
+    "file": "audio/words/0179.mp3"
+  },
+  {
+    "kana": "めえとる",
+    "file": "audio/words/0180.mp3"
+  },
+  {
+    "kana": "もう",
+    "file": "audio/words/0181.mp3"
+  },
+  {
+    "kana": "もういちど",
+    "file": "audio/words/0182.mp3"
+  },
+  {
+    "kana": "もっと",
+    "file": "audio/words/0183.mp3"
+  },
+  {
+    "kana": "やる",
+    "file": "audio/words/0184.mp3"
+  },
+  {
+    "kana": "ゆっくりと",
+    "file": "audio/words/0185.mp3"
+  },
+  {
+    "kana": "よく",
+    "file": "audio/words/0186.mp3"
+  },
+  {
+    "kana": "らじお",
+    "file": "audio/words/0187.mp3"
+  },
+  {
+    "kana": "りっぱ",
+    "file": "audio/words/0188.mp3"
+  },
+  {
+    "kana": "れこうど",
+    "file": "audio/words/0189.mp3"
+  },
+  {
+    "kana": "れすとらん",
+    "file": "audio/words/0190.mp3"
+  },
+  {
+    "kana": "わいしゃつ",
+    "file": "audio/words/0191.mp3"
+  },
+  {
+    "kana": "わるい",
+    "file": "audio/words/0192.mp3"
+  },
+  {
+    "kana": "あめ",
+    "file": "audio/words/0193.mp3"
+  },
+  {
+    "kana": "やすい",
+    "file": "audio/words/0194.mp3"
+  },
+  {
+    "kana": "くらい",
+    "file": "audio/words/0195.mp3"
+  },
+  {
+    "kana": "いみ",
+    "file": "audio/words/0196.mp3"
+  },
+  {
+    "kana": "やさしい",
+    "file": "audio/words/0197.mp3"
+  },
+  {
+    "kana": "ちがう",
+    "file": "audio/words/0198.mp3"
+  },
+  {
+    "kana": "いしゃ",
+    "file": "audio/words/0199.mp3"
+  },
+  {
+    "kana": "いち",
+    "file": "audio/words/0200.mp3"
+  },
+  {
+    "kana": "ひとつ",
+    "file": "audio/words/0201.mp3"
+  },
+  {
+    "kana": "ひとつき",
+    "file": "audio/words/0202.mp3"
+  },
+  {
+    "kana": "おととい",
+    "file": "audio/words/0203.mp3"
+  },
+  {
+    "kana": "おととし",
+    "file": "audio/words/0204.mp3"
+  },
+  {
+    "kana": "いっしょ",
+    "file": "audio/words/0205.mp3"
+  },
+  {
+    "kana": "ひとり",
+    "file": "audio/words/0206.mp3"
+  },
+  {
+    "kana": "いちにち",
+    "file": "audio/words/0207.mp3"
+  },
+  {
+    "kana": "ひく",
+    "file": "audio/words/0208.mp3"
+  },
+  {
+    "kana": "のみもの",
+    "file": "audio/words/0209.mp3"
+  },
+  {
+    "kana": "のむ",
+    "file": "audio/words/0210.mp3"
+  },
+  {
+    "kana": "みぎ",
+    "file": "audio/words/0211.mp3"
+  },
+  {
+    "kana": "えいが",
+    "file": "audio/words/0212.mp3"
+  },
+  {
+    "kana": "えいがかん",
+    "file": "audio/words/0213.mp3"
+  },
+  {
+    "kana": "およぐ",
+    "file": "audio/words/0214.mp3"
+  },
+  {
+    "kana": "えいご",
+    "file": "audio/words/0215.mp3"
+  },
+  {
+    "kana": "えき",
+    "file": "audio/words/0216.mp3"
+  },
+  {
+    "kana": "とおい",
+    "file": "audio/words/0217.mp3"
+  },
+  {
+    "kana": "えんぴつ",
+    "file": "audio/words/0218.mp3"
+  },
+  {
+    "kana": "しお",
+    "file": "audio/words/0219.mp3"
+  },
+  {
+    "kana": "きたない",
+    "file": "audio/words/0220.mp3"
+  },
+  {
+    "kana": "おくさん",
+    "file": "audio/words/0221.mp3"
+  },
+  {
+    "kana": "おす",
+    "file": "audio/words/0222.mp3"
+  },
+  {
+    "kana": "よこ",
+    "file": "audio/words/0223.mp3"
+  },
+  {
+    "kana": "きいろ",
+    "file": "audio/words/0224.mp3"
+  },
+  {
+    "kana": "きいろい",
+    "file": "audio/words/0225.mp3"
+  },
+  {
+    "kana": "ぬるい",
+    "file": "audio/words/0226.mp3"
+  },
+  {
+    "kana": "した",
+    "file": "audio/words/0227.mp3"
+  },
+  {
+    "kana": "へた",
+    "file": "audio/words/0228.mp3"
+  },
+  {
+    "kana": "なつ",
+    "file": "audio/words/0229.mp3"
+  },
+  {
+    "kana": "なつやすみ",
+    "file": "audio/words/0230.mp3"
+  },
+  {
+    "kana": "いえ",
+    "file": "audio/words/0231.mp3"
+  },
+  {
+    "kana": "かぞく",
+    "file": "audio/words/0232.mp3"
+  },
+  {
+    "kana": "かてい",
+    "file": "audio/words/0233.mp3"
+  },
+  {
+    "kana": "ひま",
+    "file": "audio/words/0234.mp3"
+  },
+  {
+    "kana": "うた",
+    "file": "audio/words/0235.mp3"
+  },
+  {
+    "kana": "うたう",
+    "file": "audio/words/0236.mp3"
+  },
+  {
+    "kana": "かようび",
+    "file": "audio/words/0237.mp3"
+  },
+  {
+    "kana": "はな",
+    "file": "audio/words/0238.mp3"
+  },
+  {
+    "kana": "かびん",
+    "file": "audio/words/0239.mp3"
+  },
+  {
+    "kana": "にもつ",
+    "file": "audio/words/0240.mp3"
+  },
+  {
+    "kana": "あう",
+    "file": "audio/words/0241.mp3"
+  },
+  {
+    "kana": "かいしゃ",
+    "file": "audio/words/0242.mp3"
+  },
+  {
+    "kana": "うみ",
+    "file": "audio/words/0243.mp3"
+  },
+  {
+    "kana": "はいざら",
+    "file": "audio/words/0244.mp3"
+  },
+  {
+    "kana": "みなさん",
+    "file": "audio/words/0245.mp3"
+  },
+  {
+    "kana": "あく",
+    "file": "audio/words/0246.mp3"
+  },
+  {
+    "kana": "あける",
+    "file": "audio/words/0247.mp3"
+  },
+  {
+    "kana": "かいだん",
+    "file": "audio/words/0248.mp3"
+  },
+  {
+    "kana": "そと",
+    "file": "audio/words/0249.mp3"
+  },
+  {
+    "kana": "がいこく",
+    "file": "audio/words/0250.mp3"
+  },
+  {
+    "kana": "がいこくじん",
+    "file": "audio/words/0251.mp3"
+  },
+  {
+    "kana": "おぼえる",
+    "file": "audio/words/0252.mp3"
+  },
+  {
+    "kana": "かど",
+    "file": "audio/words/0253.mp3"
+  },
+  {
+    "kana": "がくせい",
+    "file": "audio/words/0254.mp3"
+  },
+  {
+    "kana": "たのしい",
+    "file": "audio/words/0255.mp3"
+  },
+  {
+    "kana": "さむい",
+    "file": "audio/words/0256.mp3"
+  },
+  {
+    "kana": "かんじ",
+    "file": "audio/words/0257.mp3"
+  },
+  {
+    "kana": "あまい",
+    "file": "audio/words/0258.mp3"
+  },
+  {
+    "kana": "まるい",
+    "file": "audio/words/0259.mp3"
+  },
+  {
+    "kana": "めがね",
+    "file": "audio/words/0260.mp3"
+  },
+  {
+    "kana": "あぶない",
+    "file": "audio/words/0261.mp3"
+  },
+  {
+    "kana": "つくえ",
+    "file": "audio/words/0262.mp3"
+  },
+  {
+    "kana": "かえる",
+    "file": "audio/words/0263.mp3"
+  },
+  {
+    "kana": "おきる",
+    "file": "audio/words/0264.mp3"
+  },
+  {
+    "kana": "やすみ",
+    "file": "audio/words/0265.mp3"
+  },
+  {
+    "kana": "やすむ",
+    "file": "audio/words/0266.mp3"
+  },
+  {
+    "kana": "すう",
+    "file": "audio/words/0267.mp3"
+  },
+  {
+    "kana": "ぎゅうにく",
+    "file": "audio/words/0268.mp3"
+  },
+  {
+    "kana": "ぎゅうにゅう",
+    "file": "audio/words/0269.mp3"
+  },
+  {
+    "kana": "きょねん",
+    "file": "audio/words/0270.mp3"
+  },
+  {
+    "kana": "いる",
+    "file": "audio/words/0271.mp3"
+  },
+  {
+    "kana": "さかな",
+    "file": "audio/words/0272.mp3"
+  },
+  {
+    "kana": "つよい",
+    "file": "audio/words/0273.mp3"
+  },
+  {
+    "kana": "おしえる",
+    "file": "audio/words/0274.mp3"
+  },
+  {
+    "kana": "きょうしつ",
+    "file": "audio/words/0275.mp3"
+  },
+  {
+    "kana": "せまい",
+    "file": "audio/words/0276.mp3"
+  },
+  {
+    "kana": "まがる",
+    "file": "audio/words/0277.mp3"
+  },
+  {
+    "kana": "つとめる",
+    "file": "audio/words/0278.mp3"
+  },
+  {
+    "kana": "ちかい",
+    "file": "audio/words/0279.mp3"
+  },
+  {
+    "kana": "ちかく",
+    "file": "audio/words/0280.mp3"
+  },
+  {
+    "kana": "きんようび",
+    "file": "audio/words/0281.mp3"
+  },
+  {
+    "kana": "ぎんこう",
+    "file": "audio/words/0282.mp3"
+  },
+  {
+    "kana": "ここのつ",
+    "file": "audio/words/0283.mp3"
+  },
+  {
+    "kana": "ここのか",
+    "file": "audio/words/0284.mp3"
+  },
+  {
+    "kana": "そら",
+    "file": "audio/words/0285.mp3"
+  },
+  {
+    "kana": "くつ",
+    "file": "audio/words/0286.mp3"
+  },
+  {
+    "kana": "くつした",
+    "file": "audio/words/0287.mp3"
+  },
+  {
+    "kana": "あに",
+    "file": "audio/words/0288.mp3"
+  },
+  {
+    "kana": "きょうだい",
+    "file": "audio/words/0289.mp3"
+  },
+  {
+    "kana": "けいかん",
+    "file": "audio/words/0290.mp3"
+  },
+  {
+    "kana": "かるい",
+    "file": "audio/words/0291.mp3"
+  },
+  {
+    "kana": "けっこう",
+    "file": "audio/words/0292.mp3"
+  },
+  {
+    "kana": "けっこん",
+    "file": "audio/words/0293.mp3"
+  },
+  {
+    "kana": "げつようび",
+    "file": "audio/words/0294.mp3"
+  },
+  {
+    "kana": "いや",
+    "file": "audio/words/0295.mp3"
+  },
+  {
+    "kana": "きらい",
+    "file": "audio/words/0296.mp3"
+  },
+  {
+    "kana": "たてもの",
+    "file": "audio/words/0297.mp3"
+  },
+  {
+    "kana": "いぬ",
+    "file": "audio/words/0298.mp3"
+  },
+  {
+    "kana": "みせる",
+    "file": "audio/words/0299.mp3"
+  },
+  {
+    "kana": "みる",
+    "file": "audio/words/0300.mp3"
+  },
+  {
+    "kana": "げんき",
+    "file": "audio/words/0301.mp3"
+  },
+  {
+    "kana": "げんかん",
+    "file": "audio/words/0302.mp3"
+  },
+  {
+    "kana": "いう",
+    "file": "audio/words/0303.mp3"
+  },
+  {
+    "kana": "ことば",
+    "file": "audio/words/0304.mp3"
+  },
+  {
+    "kana": "ふるい",
+    "file": "audio/words/0305.mp3"
+  },
+  {
+    "kana": "よぶ",
+    "file": "audio/words/0306.mp3"
+  },
+  {
+    "kana": "いつつ",
+    "file": "audio/words/0307.mp3"
+  },
+  {
+    "kana": "いつか",
+    "file": "audio/words/0308.mp3"
+  },
+  {
+    "kana": "ごご",
+    "file": "audio/words/0309.mp3"
+  },
+  {
+    "kana": "ごぜん",
+    "file": "audio/words/0310.mp3"
+  },
+  {
+    "kana": "あと",
+    "file": "audio/words/0311.mp3"
+  },
+  {
+    "kana": "うしろ",
+    "file": "audio/words/0312.mp3"
+  },
+  {
+    "kana": "ごはん",
+    "file": "audio/words/0313.mp3"
+  },
+  {
+    "kana": "こうさてん",
+    "file": "audio/words/0314.mp3"
+  },
+  {
+    "kana": "こうばん",
+    "file": "audio/words/0315.mp3"
+  },
+  {
+    "kana": "こうえん",
+    "file": "audio/words/0316.mp3"
+  },
+  {
+    "kana": "あつい",
+    "file": "audio/words/0317.mp3"
+  },
+  {
+    "kana": "くち",
+    "file": "audio/words/0318.mp3"
+  },
+  {
+    "kana": "むこう",
+    "file": "audio/words/0319.mp3"
+  },
+  {
+    "kana": "すき",
+    "file": "audio/words/0320.mp3"
+  },
+  {
+    "kana": "ひろい",
+    "file": "audio/words/0321.mp3"
+  },
+  {
+    "kana": "こうちゃ",
+    "file": "audio/words/0322.mp3"
+  },
+  {
+    "kana": "いく",
+    "file": "audio/words/0323.mp3"
+  },
+  {
+    "kana": "おりる",
+    "file": "audio/words/0324.mp3"
+  },
+  {
+    "kana": "ふる",
+    "file": "audio/words/0325.mp3"
+  },
+  {
+    "kana": "たかい",
+    "file": "audio/words/0326.mp3"
+  },
+  {
+    "kana": "くに",
+    "file": "audio/words/0327.mp3"
+  },
+  {
+    "kana": "くろ",
+    "file": "audio/words/0328.mp3"
+  },
+  {
+    "kana": "くろい",
+    "file": "audio/words/0329.mp3"
+  },
+  {
+    "kana": "いま",
+    "file": "audio/words/0330.mp3"
+  },
+  {
+    "kana": "こんげつ",
+    "file": "audio/words/0331.mp3"
+  },
+  {
+    "kana": "こんしゅう",
+    "file": "audio/words/0332.mp3"
+  },
+  {
+    "kana": "けさ",
+    "file": "audio/words/0333.mp3"
+  },
+  {
+    "kana": "きょう",
+    "file": "audio/words/0334.mp3"
+  },
+  {
+    "kana": "ことし",
+    "file": "audio/words/0335.mp3"
+  },
+  {
+    "kana": "こんばん",
+    "file": "audio/words/0336.mp3"
+  },
+  {
+    "kana": "こまる",
+    "file": "audio/words/0337.mp3"
+  },
+  {
+    "kana": "ひだり",
+    "file": "audio/words/0338.mp3"
+  },
+  {
+    "kana": "さす",
+    "file": "audio/words/0339.mp3"
+  },
+  {
+    "kana": "さとう",
+    "file": "audio/words/0340.mp3"
+  },
+  {
+    "kana": "すわる",
+    "file": "audio/words/0341.mp3"
+  },
+  {
+    "kana": "ほそい",
+    "file": "audio/words/0342.mp3"
+  },
+  {
+    "kana": "さいふ",
+    "file": "audio/words/0343.mp3"
+  },
+  {
+    "kana": "さく",
+    "file": "audio/words/0344.mp3"
+  },
+  {
+    "kana": "つくる",
+    "file": "audio/words/0345.mp3"
+  },
+  {
+    "kana": "さくぶん",
+    "file": "audio/words/0346.mp3"
+  },
+  {
+    "kana": "きのう",
+    "file": "audio/words/0347.mp3"
+  },
+  {
+    "kana": "ゆうべ",
+    "file": "audio/words/0348.mp3"
+  },
+  {
+    "kana": "とる",
+    "file": "audio/words/0349.mp3"
+  },
+  {
+    "kana": "ざっし",
+    "file": "audio/words/0350.mp3"
+  },
+  {
+    "kana": "さん",
+    "file": "audio/words/0351.mp3"
+  },
+  {
+    "kana": "みっつ",
+    "file": "audio/words/0352.mp3"
+  },
+  {
+    "kana": "みっか",
+    "file": "audio/words/0353.mp3"
+  },
+  {
+    "kana": "かさ",
+    "file": "audio/words/0354.mp3"
+  },
+  {
+    "kana": "やま",
+    "file": "audio/words/0355.mp3"
+  },
+  {
+    "kana": "さんぽする",
+    "file": "audio/words/0356.mp3"
+  },
+  {
+    "kana": "しごと",
+    "file": "audio/words/0357.mp3"
+  },
+  {
+    "kana": "つかう",
+    "file": "audio/words/0358.mp3"
+  },
+  {
+    "kana": "よっつ",
+    "file": "audio/words/0359.mp3"
+  },
+  {
+    "kana": "よっか",
+    "file": "audio/words/0360.mp3"
+  },
+  {
+    "kana": "はじまる",
+    "file": "audio/words/0361.mp3"
+  },
+  {
+    "kana": "あね",
+    "file": "audio/words/0362.mp3"
+  },
+  {
+    "kana": "こども",
+    "file": "audio/words/0363.mp3"
+  },
+  {
+    "kana": "とまる",
+    "file": "audio/words/0364.mp3"
+  },
+  {
+    "kana": "しぬ",
+    "file": "audio/words/0365.mp3"
+  },
+  {
+    "kana": "わたくし",
+    "file": "audio/words/0366.mp3"
+  },
+  {
+    "kana": "かみ",
+    "file": "audio/words/0367.mp3"
+  },
+  {
+    "kana": "じびき",
+    "file": "audio/words/0368.mp3"
+  },
+  {
+    "kana": "もつ",
+    "file": "audio/words/0369.mp3"
+  },
+  {
+    "kana": "ときどき",
+    "file": "audio/words/0370.mp3"
+  },
+  {
+    "kana": "じかん",
+    "file": "audio/words/0371.mp3"
+  },
+  {
+    "kana": "とけい",
+    "file": "audio/words/0372.mp3"
+  },
+  {
+    "kana": "つぎ",
+    "file": "audio/words/0373.mp3"
+  },
+  {
+    "kana": "みみ",
+    "file": "audio/words/0374.mp3"
+  },
+  {
+    "kana": "じどうしゃ",
+    "file": "audio/words/0375.mp3"
+  },
+  {
+    "kana": "じぶん",
+    "file": "audio/words/0376.mp3"
+  },
+  {
+    "kana": "じしょ",
+    "file": "audio/words/0377.mp3"
+  },
+  {
+    "kana": "ななつ",
+    "file": "audio/words/0378.mp3"
+  },
+  {
+    "kana": "なのか",
+    "file": "audio/words/0379.mp3"
+  },
+  {
+    "kana": "しつもん",
+    "file": "audio/words/0380.mp3"
+  },
+  {
+    "kana": "しゃしん",
+    "file": "audio/words/0381.mp3"
+  },
+  {
+    "kana": "くるま",
+    "file": "audio/words/0382.mp3"
+  },
+  {
+    "kana": "かりる",
+    "file": "audio/words/0383.mp3"
+  },
+  {
+    "kana": "わかい",
+    "file": "audio/words/0384.mp3"
+  },
+  {
+    "kana": "よわい",
+    "file": "audio/words/0385.mp3"
+  },
+  {
+    "kana": "てがみ",
+    "file": "audio/words/0386.mp3"
+  },
+  {
+    "kana": "じゅぎょう",
+    "file": "audio/words/0387.mp3"
+  },
+  {
+    "kana": "あき",
+    "file": "audio/words/0388.mp3"
+  },
+  {
+    "kana": "おわる",
+    "file": "audio/words/0389.mp3"
+  },
+  {
+    "kana": "ならう",
+    "file": "audio/words/0390.mp3"
+  },
+  {
+    "kana": "すむ",
+    "file": "audio/words/0391.mp3"
+  },
+  {
+    "kana": "とおか",
+    "file": "audio/words/0392.mp3"
+  },
+  {
+    "kana": "おもい",
+    "file": "audio/words/0393.mp3"
+  },
+  {
+    "kana": "しゅくだい",
+    "file": "audio/words/0394.mp3"
+  },
+  {
+    "kana": "でかける",
+    "file": "audio/words/0395.mp3"
+  },
+  {
+    "kana": "だす",
+    "file": "audio/words/0396.mp3"
+  },
+  {
+    "kana": "でる",
+    "file": "audio/words/0397.mp3"
+  },
+  {
+    "kana": "でぐち",
+    "file": "audio/words/0398.mp3"
+  },
+  {
+    "kana": "はる",
+    "file": "audio/words/0399.mp3"
+  },
+  {
+    "kana": "はじめ",
+    "file": "audio/words/0400.mp3"
+  },
+  {
+    "kana": "はじめて",
+    "file": "audio/words/0401.mp3"
+  },
+  {
+    "kana": "ところ",
+    "file": "audio/words/0402.mp3"
+  },
+  {
+    "kana": "かく",
+    "file": "audio/words/0403.mp3"
+  },
+  {
+    "kana": "おんな",
+    "file": "audio/words/0404.mp3"
+  },
+  {
+    "kana": "おんなのこ",
+    "file": "audio/words/0405.mp3"
+  },
+  {
+    "kana": "ちいさい",
+    "file": "audio/words/0406.mp3"
+  },
+  {
+    "kana": "ちいさな",
+    "file": "audio/words/0407.mp3"
+  },
+  {
+    "kana": "すこし",
+    "file": "audio/words/0408.mp3"
+  },
+  {
+    "kana": "すくない",
+    "file": "audio/words/0409.mp3"
+  },
+  {
+    "kana": "きえる",
+    "file": "audio/words/0410.mp3"
+  },
+  {
+    "kana": "けす",
+    "file": "audio/words/0411.mp3"
+  },
+  {
+    "kana": "うえ",
+    "file": "audio/words/0412.mp3"
+  },
+  {
+    "kana": "あげる",
+    "file": "audio/words/0413.mp3"
+  },
+  {
+    "kana": "じょうず",
+    "file": "audio/words/0414.mp3"
+  },
+  {
+    "kana": "うわぎ",
+    "file": "audio/words/0415.mp3"
+  },
+  {
+    "kana": "じょうぶ",
+    "file": "audio/words/0416.mp3"
+  },
+  {
+    "kana": "のる",
+    "file": "audio/words/0417.mp3"
+  },
+  {
+    "kana": "いろ",
+    "file": "audio/words/0418.mp3"
+  },
+  {
+    "kana": "たべる",
+    "file": "audio/words/0419.mp3"
+  },
+  {
+    "kana": "しょくどう",
+    "file": "audio/words/0420.mp3"
+  },
+  {
+    "kana": "ねる",
+    "file": "audio/words/0421.mp3"
+  },
+  {
+    "kana": "あたらしい",
+    "file": "audio/words/0422.mp3"
+  },
+  {
+    "kana": "からい",
+    "file": "audio/words/0423.mp3"
+  },
+  {
+    "kana": "ひと",
+    "file": "audio/words/0424.mp3"
+  },
+  {
+    "kana": "ふく",
+    "file": "audio/words/0425.mp3"
+  },
+  {
+    "kana": "すいようび",
+    "file": "audio/words/0426.mp3"
+  },
+  {
+    "kana": "はれ",
+    "file": "audio/words/0427.mp3"
+  },
+  {
+    "kana": "はれる",
+    "file": "audio/words/0428.mp3"
+  },
+  {
+    "kana": "うまれる",
+    "file": "audio/words/0429.mp3"
+  },
+  {
+    "kana": "せいと",
+    "file": "audio/words/0430.mp3"
+  },
+  {
+    "kana": "こえ",
+    "file": "audio/words/0431.mp3"
+  },
+  {
+    "kana": "にし",
+    "file": "audio/words/0432.mp3"
+  },
+  {
+    "kana": "あお",
+    "file": "audio/words/0433.mp3"
+  },
+  {
+    "kana": "あおい",
+    "file": "audio/words/0434.mp3"
+  },
+  {
+    "kana": "しずか",
+    "file": "audio/words/0435.mp3"
+  },
+  {
+    "kana": "あか",
+    "file": "audio/words/0436.mp3"
+  },
+  {
+    "kana": "あかい",
+    "file": "audio/words/0437.mp3"
+  },
+  {
+    "kana": "きる",
+    "file": "audio/words/0438.mp3"
+  },
+  {
+    "kana": "きって",
+    "file": "audio/words/0439.mp3"
+  },
+  {
+    "kana": "きっぷ",
+    "file": "audio/words/0440.mp3"
+  },
+  {
+    "kana": "ゆき",
+    "file": "audio/words/0441.mp3"
+  },
+  {
+    "kana": "さき",
+    "file": "audio/words/0442.mp3"
+  },
+  {
+    "kana": "せんげつ",
+    "file": "audio/words/0443.mp3"
+  },
+  {
+    "kana": "せんしゅう",
+    "file": "audio/words/0444.mp3"
+  },
+  {
+    "kana": "せん",
+    "file": "audio/words/0445.mp3"
+  },
+  {
+    "kana": "かわ",
+    "file": "audio/words/0446.mp3"
+  },
+  {
+    "kana": "あらう",
+    "file": "audio/words/0447.mp3"
+  },
+  {
+    "kana": "せんたく",
+    "file": "audio/words/0448.mp3"
+  },
+  {
+    "kana": "まえ",
+    "file": "audio/words/0449.mp3"
+  },
+  {
+    "kana": "ぜんぶ",
+    "file": "audio/words/0450.mp3"
+  },
+  {
+    "kana": "そうじする",
+    "file": "audio/words/0451.mp3"
+  },
+  {
+    "kana": "はやい",
+    "file": "audio/words/0452.mp3"
+  },
+  {
+    "kana": "まど",
+    "file": "audio/words/0453.mp3"
+  },
+  {
+    "kana": "はしる",
+    "file": "audio/words/0454.mp3"
+  },
+  {
+    "kana": "あし",
+    "file": "audio/words/0455.mp3"
+  },
+  {
+    "kana": "むら",
+    "file": "audio/words/0456.mp3"
+  },
+  {
+    "kana": "おおい",
+    "file": "audio/words/0457.mp3"
+  },
+  {
+    "kana": "ふとい",
+    "file": "audio/words/0458.mp3"
+  },
+  {
+    "kana": "からだ",
+    "file": "audio/words/0459.mp3"
+  },
+  {
+    "kana": "まつ",
+    "file": "audio/words/0460.mp3"
+  },
+  {
+    "kana": "かす",
+    "file": "audio/words/0461.mp3"
+  },
+  {
+    "kana": "だいどころ",
+    "file": "audio/words/0462.mp3"
+  },
+  {
+    "kana": "おおきい",
+    "file": "audio/words/0463.mp3"
+  },
+  {
+    "kana": "おおきな",
+    "file": "audio/words/0464.mp3"
+  },
+  {
+    "kana": "だいがく",
+    "file": "audio/words/0465.mp3"
+  },
+  {
+    "kana": "だいすき",
+    "file": "audio/words/0466.mp3"
+  },
+  {
+    "kana": "たいしかん",
+    "file": "audio/words/0467.mp3"
+  },
+  {
+    "kana": "だいじょうぶ",
+    "file": "audio/words/0468.mp3"
+  },
+  {
+    "kana": "おとな",
+    "file": "audio/words/0469.mp3"
+  },
+  {
+    "kana": "おおぜい",
+    "file": "audio/words/0470.mp3"
+  },
+  {
+    "kana": "たいせつ",
+    "file": "audio/words/0471.mp3"
+  },
+  {
+    "kana": "ぬぐ",
+    "file": "audio/words/0472.mp3"
+  },
+  {
+    "kana": "だれ",
+    "file": "audio/words/0473.mp3"
+  },
+  {
+    "kana": "みじかい",
+    "file": "audio/words/0474.mp3"
+  },
+  {
+    "kana": "たんじょうび",
+    "file": "audio/words/0475.mp3"
+  },
+  {
+    "kana": "あたたかい",
+    "file": "audio/words/0476.mp3"
+  },
+  {
+    "kana": "おとこ",
+    "file": "audio/words/0477.mp3"
+  },
+  {
+    "kana": "おとこのこ",
+    "file": "audio/words/0478.mp3"
+  },
+  {
+    "kana": "しる",
+    "file": "audio/words/0479.mp3"
+  },
+  {
+    "kana": "ちかてつ",
+    "file": "audio/words/0480.mp3"
+  },
+  {
+    "kana": "ちず",
+    "file": "audio/words/0481.mp3"
+  },
+  {
+    "kana": "いけ",
+    "file": "audio/words/0482.mp3"
+  },
+  {
+    "kana": "おく",
+    "file": "audio/words/0483.mp3"
+  },
+  {
+    "kana": "おそい",
+    "file": "audio/words/0484.mp3"
+  },
+  {
+    "kana": "ちゃいろ",
+    "file": "audio/words/0485.mp3"
+  },
+  {
+    "kana": "つく",
+    "file": "audio/words/0486.mp3"
+  },
+  {
+    "kana": "なか",
+    "file": "audio/words/0487.mp3"
+  },
+  {
+    "kana": "ひる",
+    "file": "audio/words/0488.mp3"
+  },
+  {
+    "kana": "ひるごはん",
+    "file": "audio/words/0489.mp3"
+  },
+  {
+    "kana": "あさ",
+    "file": "audio/words/0490.mp3"
+  },
+  {
+    "kana": "あさごはん",
+    "file": "audio/words/0491.mp3"
+  },
+  {
+    "kana": "まち",
+    "file": "audio/words/0492.mp3"
+  },
+  {
+    "kana": "ながい",
+    "file": "audio/words/0493.mp3"
+  },
+  {
+    "kana": "とり",
+    "file": "audio/words/0494.mp3"
+  },
+  {
+    "kana": "いたい",
+    "file": "audio/words/0495.mp3"
+  },
+  {
+    "kana": "ひくい",
+    "file": "audio/words/0496.mp3"
+  },
+  {
+    "kana": "にわ",
+    "file": "audio/words/0497.mp3"
+  },
+  {
+    "kana": "おとうと",
+    "file": "audio/words/0498.mp3"
+  },
+  {
+    "kana": "しめる",
+    "file": "audio/words/0499.mp3"
+  },
+  {
+    "kana": "てんき",
+    "file": "audio/words/0500.mp3"
+  },
+  {
+    "kana": "みせ",
+    "file": "audio/words/0501.mp3"
+  },
+  {
+    "kana": "でんき",
+    "file": "audio/words/0502.mp3"
+  },
+  {
+    "kana": "でんわ",
+    "file": "audio/words/0503.mp3"
+  },
+  {
+    "kana": "わたす",
+    "file": "audio/words/0504.mp3"
+  },
+  {
+    "kana": "わたる",
+    "file": "audio/words/0505.mp3"
+  },
+  {
+    "kana": "のぼる",
+    "file": "audio/words/0506.mp3"
+  },
+  {
+    "kana": "どようび",
+    "file": "audio/words/0507.mp3"
+  },
+  {
+    "kana": "ふゆ",
+    "file": "audio/words/0508.mp3"
+  },
+  {
+    "kana": "ひがし",
+    "file": "audio/words/0509.mp3"
+  },
+  {
+    "kana": "こたえる",
+    "file": "audio/words/0510.mp3"
+  },
+  {
+    "kana": "あたま",
+    "file": "audio/words/0511.mp3"
+  },
+  {
+    "kana": "はたらく",
+    "file": "audio/words/0512.mp3"
+  },
+  {
+    "kana": "どうぶつ",
+    "file": "audio/words/0513.mp3"
+  },
+  {
+    "kana": "おなじ",
+    "file": "audio/words/0514.mp3"
+  },
+  {
+    "kana": "みち",
+    "file": "audio/words/0515.mp3"
+  },
+  {
+    "kana": "よむ",
+    "file": "audio/words/0516.mp3"
+  },
+  {
+    "kana": "ぶたにく",
+    "file": "audio/words/0517.mp3"
+  },
+  {
+    "kana": "くもり",
+    "file": "audio/words/0518.mp3"
+  },
+  {
+    "kana": "くもる",
+    "file": "audio/words/0519.mp3"
+  },
+  {
+    "kana": "みなみ",
+    "file": "audio/words/0520.mp3"
+  },
+  {
+    "kana": "むずかしい",
+    "file": "audio/words/0521.mp3"
+  },
+  {
+    "kana": "ふたつ",
+    "file": "audio/words/0522.mp3"
+  },
+  {
+    "kana": "はたち",
+    "file": "audio/words/0523.mp3"
+  },
+  {
+    "kana": "はつか",
+    "file": "audio/words/0524.mp3"
+  },
+  {
+    "kana": "ふたり",
+    "file": "audio/words/0525.mp3"
+  },
+  {
+    "kana": "ふつか",
+    "file": "audio/words/0526.mp3"
+  },
+  {
+    "kana": "にぎやか",
+    "file": "audio/words/0527.mp3"
+  },
+  {
+    "kana": "にく",
+    "file": "audio/words/0528.mp3"
+  },
+  {
+    "kana": "にちようび",
+    "file": "audio/words/0529.mp3"
+  },
+  {
+    "kana": "はいる",
+    "file": "audio/words/0530.mp3"
+  },
+  {
+    "kana": "いれる",
+    "file": "audio/words/0531.mp3"
+  },
+  {
+    "kana": "いりぐち",
+    "file": "audio/words/0532.mp3"
+  },
+  {
+    "kana": "とし",
+    "file": "audio/words/0533.mp3"
+  },
+  {
+    "kana": "せびろ",
+    "file": "audio/words/0534.mp3"
+  },
+  {
+    "kana": "かいもの",
+    "file": "audio/words/0535.mp3"
+  },
+  {
+    "kana": "かう",
+    "file": "audio/words/0536.mp3"
+  },
+  {
+    "kana": "うる",
+    "file": "audio/words/0537.mp3"
+  },
+  {
+    "kana": "おじいさん",
+    "file": "audio/words/0538.mp3"
+  },
+  {
+    "kana": "おばさん",
+    "file": "audio/words/0539.mp3"
+  },
+  {
+    "kana": "しろ",
+    "file": "audio/words/0540.mp3"
+  },
+  {
+    "kana": "しろい",
+    "file": "audio/words/0541.mp3"
+  },
+  {
+    "kana": "うすい",
+    "file": "audio/words/0542.mp3"
+  },
+  {
+    "kana": "はこ",
+    "file": "audio/words/0543.mp3"
+  },
+  {
+    "kana": "はち",
+    "file": "audio/words/0544.mp3"
+  },
+  {
+    "kana": "やっつ",
+    "file": "audio/words/0545.mp3"
+  },
+  {
+    "kana": "ようか",
+    "file": "audio/words/0546.mp3"
+  },
+  {
+    "kana": "やおや",
+    "file": "audio/words/0547.mp3"
+  },
+  {
+    "kana": "はん",
+    "file": "audio/words/0548.mp3"
+  },
+  {
+    "kana": "はんぶん",
+    "file": "audio/words/0549.mp3"
+  },
+  {
+    "kana": "うるさい",
+    "file": "audio/words/0550.mp3"
+  },
+  {
+    "kana": "ばん",
+    "file": "audio/words/0551.mp3"
+  },
+  {
+    "kana": "ばんごはん",
+    "file": "audio/words/0552.mp3"
+  },
+  {
+    "kana": "ばんごう",
+    "file": "audio/words/0553.mp3"
+  },
+  {
+    "kana": "つかれる",
+    "file": "audio/words/0554.mp3"
+  },
+  {
+    "kana": "とぶ",
+    "file": "audio/words/0555.mp3"
+  },
+  {
+    "kana": "ひゃく",
+    "file": "audio/words/0556.mp3"
+  },
+  {
+    "kana": "びょういん",
+    "file": "audio/words/0557.mp3"
+  },
+  {
+    "kana": "びょうき",
+    "file": "audio/words/0558.mp3"
+  },
+  {
+    "kana": "へや",
+    "file": "audio/words/0559.mp3"
+  },
+  {
+    "kana": "ふうとう",
+    "file": "audio/words/0560.mp3"
+  },
+  {
+    "kana": "かぜ",
+    "file": "audio/words/0561.mp3"
+  },
+  {
+    "kana": "もの",
+    "file": "audio/words/0562.mp3"
+  },
+  {
+    "kana": "わかる",
+    "file": "audio/words/0563.mp3"
+  },
+  {
+    "kana": "ぶんしょう",
+    "file": "audio/words/0564.mp3"
+  },
+  {
+    "kana": "きく",
+    "file": "audio/words/0565.mp3"
+  },
+  {
+    "kana": "ならぶ",
+    "file": "audio/words/0566.mp3"
+  },
+  {
+    "kana": "ならべる",
+    "file": "audio/words/0567.mp3"
+  },
+  {
+    "kana": "しまる",
+    "file": "audio/words/0568.mp3"
+  },
+  {
+    "kana": "へん",
+    "file": "audio/words/0569.mp3"
+  },
+  {
+    "kana": "かえす",
+    "file": "audio/words/0570.mp3"
+  },
+  {
+    "kana": "べんり",
+    "file": "audio/words/0571.mp3"
+  },
+  {
+    "kana": "べんきょうする",
+    "file": "audio/words/0572.mp3"
+  },
+  {
+    "kana": "あるく",
+    "file": "audio/words/0573.mp3"
+  },
+  {
+    "kana": "かた",
+    "file": "audio/words/0574.mp3"
+  },
+  {
+    "kana": "ぼうし",
+    "file": "audio/words/0575.mp3"
+  },
+  {
+    "kana": "わすれる",
+    "file": "audio/words/0576.mp3"
+  },
+  {
+    "kana": "いそがしい",
+    "file": "audio/words/0577.mp3"
+  },
+  {
+    "kana": "きた",
+    "file": "audio/words/0578.mp3"
+  },
+  {
+    "kana": "ほん",
+    "file": "audio/words/0579.mp3"
+  },
+  {
+    "kana": "ほんだな",
+    "file": "audio/words/0580.mp3"
+  },
+  {
+    "kana": "みがく",
+    "file": "audio/words/0581.mp3"
+  },
+  {
+    "kana": "いもうと",
+    "file": "audio/words/0582.mp3"
+  },
+  {
+    "kana": "まいしゅう",
+    "file": "audio/words/0583.mp3"
+  },
+  {
+    "kana": "まいあさ",
+    "file": "audio/words/0584.mp3"
+  },
+  {
+    "kana": "まいにち",
+    "file": "audio/words/0585.mp3"
+  },
+  {
+    "kana": "まいばん",
+    "file": "audio/words/0586.mp3"
+  },
+  {
+    "kana": "まん",
+    "file": "audio/words/0587.mp3"
+  },
+  {
+    "kana": "まんねんひつ",
+    "file": "audio/words/0588.mp3"
+  },
+  {
+    "kana": "なくす",
+    "file": "audio/words/0589.mp3"
+  },
+  {
+    "kana": "なまえ",
+    "file": "audio/words/0590.mp3"
+  },
+  {
+    "kana": "あかるい",
+    "file": "audio/words/0591.mp3"
+  },
+  {
+    "kana": "あした",
+    "file": "audio/words/0592.mp3"
+  },
+  {
+    "kana": "なく",
+    "file": "audio/words/0593.mp3"
+  },
+  {
+    "kana": "もくようび",
+    "file": "audio/words/0594.mp3"
+  },
+  {
+    "kana": "もんだい",
+    "file": "audio/words/0595.mp3"
+  },
+  {
+    "kana": "もん",
+    "file": "audio/words/0596.mp3"
+  },
+  {
+    "kana": "よる",
+    "file": "audio/words/0597.mp3"
+  },
+  {
+    "kana": "くすり",
+    "file": "audio/words/0598.mp3"
+  },
+  {
+    "kana": "ゆうめい",
+    "file": "audio/words/0599.mp3"
+  },
+  {
+    "kana": "あそぶ",
+    "file": "audio/words/0600.mp3"
+  },
+  {
+    "kana": "ゆうびんきょく",
+    "file": "audio/words/0601.mp3"
+  },
+  {
+    "kana": "ゆうはん",
+    "file": "audio/words/0602.mp3"
+  },
+  {
+    "kana": "ゆうがた",
+    "file": "audio/words/0603.mp3"
+  },
+  {
+    "kana": "ようふく",
+    "file": "audio/words/0604.mp3"
+  },
+  {
+    "kana": "はがき",
+    "file": "audio/words/0605.mp3"
+  },
+  {
+    "kana": "ほしい",
+    "file": "audio/words/0606.mp3"
+  },
+  {
+    "kana": "くる",
+    "file": "audio/words/0607.mp3"
+  },
+  {
+    "kana": "らいげつ",
+    "file": "audio/words/0608.mp3"
+  },
+  {
+    "kana": "らいしゅう",
+    "file": "audio/words/0609.mp3"
+  },
+  {
+    "kana": "らいねん",
+    "file": "audio/words/0610.mp3"
+  },
+  {
+    "kana": "たのむ",
+    "file": "audio/words/0611.mp3"
+  },
+  {
+    "kana": "たまご",
+    "file": "audio/words/0612.mp3"
+  },
+  {
+    "kana": "たつ",
+    "file": "audio/words/0613.mp3"
+  },
+  {
+    "kana": "りゅうがくせい",
+    "file": "audio/words/0614.mp3"
+  },
+  {
+    "kana": "りょうしん",
+    "file": "audio/words/0615.mp3"
+  },
+  {
+    "kana": "りょうり",
+    "file": "audio/words/0616.mp3"
+  },
+  {
+    "kana": "すずしい",
+    "file": "audio/words/0617.mp3"
+  },
+  {
+    "kana": "みどり",
+    "file": "audio/words/0618.mp3"
+  },
+  {
+    "kana": "となり",
+    "file": "audio/words/0619.mp3"
+  },
+  {
+    "kana": "つめたい",
+    "file": "audio/words/0620.mp3"
+  },
+  {
+    "kana": "れいぞうこ",
+    "file": "audio/words/0621.mp3"
+  },
+  {
+    "kana": "れい",
+    "file": "audio/words/0622.mp3"
+  },
+  {
+    "kana": "れんしゅうする",
+    "file": "audio/words/0623.mp3"
+  },
+  {
+    "kana": "ろうか",
+    "file": "audio/words/0624.mp3"
+  },
+  {
+    "kana": "ろく",
+    "file": "audio/words/0625.mp3"
+  },
+  {
+    "kana": "むっつ",
+    "file": "audio/words/0626.mp3"
+  },
+  {
+    "kana": "むいか",
+    "file": "audio/words/0627.mp3"
+  },
+  {
+    "kana": "はなし",
+    "file": "audio/words/0628.mp3"
+  },
+  {
+    "kana": "はなす",
+    "file": "audio/words/0629.mp3"
+  },
+  {
+    "kana": "ああ",
+    "file": "audio/words/0630.mp3"
+  },
+  {
+    "kana": "あいさつする",
+    "file": "audio/words/0631.mp3"
+  },
+  {
+    "kana": "あかちゃん",
+    "file": "audio/words/0632.mp3"
+  },
+  {
+    "kana": "あくせさりい",
+    "file": "audio/words/0633.mp3"
+  },
+  {
+    "kana": "あじあ",
+    "file": "audio/words/0634.mp3"
+  },
+  {
+    "kana": "あなうんさあ",
+    "file": "audio/words/0635.mp3"
+  },
+  {
+    "kana": "あふりか",
+    "file": "audio/words/0636.mp3"
+  },
+  {
+    "kana": "あめりか",
+    "file": "audio/words/0637.mp3"
+  },
+  {
+    "kana": "あるこうる",
+    "file": "audio/words/0638.mp3"
+  },
+  {
+    "kana": "あるばいと",
+    "file": "audio/words/0639.mp3"
+  },
+  {
+    "kana": "あんな",
+    "file": "audio/words/0640.mp3"
+  },
+  {
+    "kana": "いじめる",
+    "file": "audio/words/0641.mp3"
+  },
+  {
+    "kana": "いただく",
+    "file": "audio/words/0642.mp3"
+  },
+  {
+    "kana": "いっぱい",
+    "file": "audio/words/0643.mp3"
+  },
+  {
+    "kana": "いらっしゃる",
+    "file": "audio/words/0644.mp3"
+  },
+  {
+    "kana": "うかがう",
+    "file": "audio/words/0645.mp3"
+  },
+  {
+    "kana": "うそ",
+    "file": "audio/words/0646.mp3"
+  },
+  {
+    "kana": "うち",
+    "file": "audio/words/0647.mp3"
+  },
+  {
+    "kana": "うまい",
+    "file": "audio/words/0648.mp3"
+  },
+  {
+    "kana": "うれしい",
+    "file": "audio/words/0649.mp3"
+  },
+  {
+    "kana": "うん",
+    "file": "audio/words/0650.mp3"
+  },
+  {
+    "kana": "えすかれえたあ",
+    "file": "audio/words/0651.mp3"
+  },
+  {
+    "kana": "おいでになる",
+    "file": "audio/words/0652.mp3"
+  },
+  {
+    "kana": "おうとばい",
+    "file": "audio/words/0653.mp3"
+  },
+  {
+    "kana": "おかげ",
+    "file": "audio/words/0654.mp3"
+  },
+  {
+    "kana": "おかしい",
+    "file": "audio/words/0655.mp3"
+  },
+  {
+    "kana": "おっしゃる",
+    "file": "audio/words/0656.mp3"
+  },
+  {
+    "kana": "おつり",
+    "file": "audio/words/0657.mp3"
+  },
+  {
+    "kana": "おもちゃ",
+    "file": "audio/words/0658.mp3"
+  },
+  {
+    "kana": "おみまい",
+    "file": "audio/words/0659.mp3"
+  },
+  {
+    "kana": "おまつり",
+    "file": "audio/words/0660.mp3"
+  },
+  {
+    "kana": "おいわい",
+    "file": "audio/words/0661.mp3"
+  },
+  {
+    "kana": "おじょうさん",
+    "file": "audio/words/0662.mp3"
+  },
+  {
+    "kana": "おたく",
+    "file": "audio/words/0663.mp3"
+  },
+  {
+    "kana": "おみやげ",
+    "file": "audio/words/0664.mp3"
+  },
+  {
+    "kana": "おれい",
+    "file": "audio/words/0665.mp3"
+  },
+  {
+    "kana": "かあてん",
+    "file": "audio/words/0666.mp3"
+  },
+  {
+    "kana": "がす",
+    "file": "audio/words/0667.mp3"
+  },
+  {
+    "kana": "がそりん",
+    "file": "audio/words/0668.mp3"
+  },
+  {
+    "kana": "がそりんすたんど",
+    "file": "audio/words/0669.mp3"
+  },
+  {
+    "kana": "かっこう",
+    "file": "audio/words/0670.mp3"
+  },
+  {
+    "kana": "かまう",
+    "file": "audio/words/0671.mp3"
+  },
+  {
+    "kana": "がらす",
+    "file": "audio/words/0672.mp3"
+  },
+  {
+    "kana": "きっと",
+    "file": "audio/words/0673.mp3"
+  },
+  {
+    "kana": "くださる",
+    "file": "audio/words/0674.mp3"
+  },
+  {
+    "kana": "くれる",
+    "file": "audio/words/0675.mp3"
+  },
+  {
+    "kana": "けえき",
+    "file": "audio/words/0676.mp3"
+  },
+  {
+    "kana": "けがする",
+    "file": "audio/words/0677.mp3"
+  },
+  {
+    "kana": "けんかする",
+    "file": "audio/words/0678.mp3"
+  },
+  {
+    "kana": "こう",
+    "file": "audio/words/0679.mp3"
+  },
+  {
+    "kana": "ごちそう",
+    "file": "audio/words/0680.mp3"
+  },
+  {
+    "kana": "こと",
+    "file": "audio/words/0681.mp3"
+  },
+  {
+    "kana": "このあいだ",
+    "file": "audio/words/0682.mp3"
+  },
+  {
+    "kana": "このごろ",
+    "file": "audio/words/0683.mp3"
+  },
+  {
+    "kana": "ごみ",
+    "file": "audio/words/0684.mp3"
+  },
+  {
+    "kana": "ごらんになる",
+    "file": "audio/words/0685.mp3"
+  },
+  {
+    "kana": "これから",
+    "file": "audio/words/0686.mp3"
+  },
+  {
+    "kana": "こんさあと",
+    "file": "audio/words/0687.mp3"
+  },
+  {
+    "kana": "ごぞんじ",
+    "file": "audio/words/0688.mp3"
+  },
+  {
+    "kana": "さっき",
+    "file": "audio/words/0689.mp3"
+  },
+  {
+    "kana": "さらだ",
+    "file": "audio/words/0690.mp3"
+  },
+  {
+    "kana": "さんだる",
+    "file": "audio/words/0691.mp3"
+  },
+  {
+    "kana": "さんどいっち",
+    "file": "audio/words/0692.mp3"
+  },
+  {
+    "kana": "さらいげつ",
+    "file": "audio/words/0693.mp3"
+  },
+  {
+    "kana": "さらいしゅう",
+    "file": "audio/words/0694.mp3"
+  },
+  {
+    "kana": "しかる",
+    "file": "audio/words/0695.mp3"
+  },
+  {
+    "kana": "しっかり",
+    "file": "audio/words/0696.mp3"
+  },
+  {
+    "kana": "しばらく",
+    "file": "audio/words/0697.mp3"
+  },
+  {
+    "kana": "じゃま",
+    "file": "audio/words/0698.mp3"
+  },
+  {
+    "kana": "じゃむ",
+    "file": "audio/words/0699.mp3"
+  },
+  {
+    "kana": "ずいぶん",
+    "file": "audio/words/0700.mp3"
+  },
+  {
+    "kana": "すうつ",
+    "file": "audio/words/0701.mp3"
+  },
+  {
+    "kana": "すうつけえす",
+    "file": "audio/words/0702.mp3"
+  },
+  {
+    "kana": "すく",
+    "file": "audio/words/0703.mp3"
+  },
+  {
+    "kana": "すくりいん",
+    "file": "audio/words/0704.mp3"
+  },
+  {
+    "kana": "すっかり",
+    "file": "audio/words/0705.mp3"
+  },
+  {
+    "kana": "すっと",
+    "file": "audio/words/0706.mp3"
+  },
+  {
+    "kana": "すてえき",
+    "file": "audio/words/0707.mp3"
+  },
+  {
+    "kana": "すてれお",
+    "file": "audio/words/0708.mp3"
+  },
+  {
+    "kana": "すばらしい",
+    "file": "audio/words/0709.mp3"
+  },
+  {
+    "kana": "すり",
+    "file": "audio/words/0710.mp3"
+  },
+  {
+    "kana": "すると",
+    "file": "audio/words/0711.mp3"
+  },
+  {
+    "kana": "ぜひ",
+    "file": "audio/words/0712.mp3"
+  },
+  {
+    "kana": "ぜんぜん",
+    "file": "audio/words/0713.mp3"
+  },
+  {
+    "kana": "そう",
+    "file": "audio/words/0714.mp3"
+  },
+  {
+    "kana": "そふと",
+    "file": "audio/words/0715.mp3"
+  },
+  {
+    "kana": "それで",
+    "file": "audio/words/0716.mp3"
+  },
+  {
+    "kana": "それに",
+    "file": "audio/words/0717.mp3"
+  },
+  {
+    "kana": "それほど",
+    "file": "audio/words/0718.mp3"
+  },
+  {
+    "kana": "そろそろ",
+    "file": "audio/words/0719.mp3"
+  },
+  {
+    "kana": "そんな",
+    "file": "audio/words/0720.mp3"
+  },
+  {
+    "kana": "そんなに",
+    "file": "audio/words/0721.mp3"
+  },
+  {
+    "kana": "たいてい",
+    "file": "audio/words/0722.mp3"
+  },
+  {
+    "kana": "たいぷ",
+    "file": "audio/words/0723.mp3"
+  },
+  {
+    "kana": "だから",
+    "file": "audio/words/0724.mp3"
+  },
+  {
+    "kana": "たまに",
+    "file": "audio/words/0725.mp3"
+  },
+  {
+    "kana": "だめ",
+    "file": "audio/words/0726.mp3"
+  },
+  {
+    "kana": "ちぇっくする",
+    "file": "audio/words/0727.mp3"
+  },
+  {
+    "kana": "ちっとも",
+    "file": "audio/words/0728.mp3"
+  },
+  {
+    "kana": "ちゃん",
+    "file": "audio/words/0729.mp3"
+  },
+  {
+    "kana": "つき",
+    "file": "audio/words/0730.mp3"
+  },
+  {
+    "kana": "つもり",
+    "file": "audio/words/0731.mp3"
+  },
+  {
+    "kana": "てきすと",
+    "file": "audio/words/0732.mp3"
+  },
+  {
+    "kana": "できるだけ",
+    "file": "audio/words/0733.mp3"
+  },
+  {
+    "kana": "てにす",
+    "file": "audio/words/0734.mp3"
+  },
+  {
+    "kana": "とうとう",
+    "file": "audio/words/0735.mp3"
+  },
+  {
+    "kana": "とこや",
+    "file": "audio/words/0736.mp3"
+  },
+  {
+    "kana": "どんどん",
+    "file": "audio/words/0737.mp3"
+  },
+  {
+    "kana": "なさる",
+    "file": "audio/words/0738.mp3"
+  },
+  {
+    "kana": "なるべく",
+    "file": "audio/words/0739.mp3"
+  },
+  {
+    "kana": "なるほど",
+    "file": "audio/words/0740.mp3"
+  },
+  {
+    "kana": "におい",
+    "file": "audio/words/0741.mp3"
+  },
+  {
+    "kana": "ぬれる",
+    "file": "audio/words/0742.mp3"
+  },
+  {
+    "kana": "ねだん",
+    "file": "audio/words/0743.mp3"
+  },
+  {
+    "kana": "ねっしん",
+    "file": "audio/words/0744.mp3"
+  },
+  {
+    "kana": "のど",
+    "file": "audio/words/0745.mp3"
+  },
+  {
+    "kana": "ぱあと",
+    "file": "audio/words/0746.mp3"
+  },
+  {
+    "kana": "はず",
+    "file": "audio/words/0747.mp3"
+  },
+  {
+    "kana": "ぱそこん",
+    "file": "audio/words/0748.mp3"
+  },
+  {
+    "kana": "はっきり",
+    "file": "audio/words/0749.mp3"
+  },
+  {
+    "kana": "はんどばっぐ",
+    "file": "audio/words/0750.mp3"
+  },
+  {
+    "kana": "ぴあの",
+    "file": "audio/words/0751.mp3"
+  },
+  {
+    "kana": "ひげ",
+    "file": "audio/words/0752.mp3"
+  },
+  {
+    "kana": "びっくりする",
+    "file": "audio/words/0753.mp3"
+  },
+  {
+    "kana": "ひどい",
+    "file": "audio/words/0754.mp3"
+  },
+  {
+    "kana": "びる",
+    "file": "audio/words/0755.mp3"
+  },
+  {
+    "kana": "ふぁっくす",
+    "file": "audio/words/0756.mp3"
+  },
+  {
+    "kana": "ぶどう",
+    "file": "audio/words/0757.mp3"
+  },
+  {
+    "kana": "ぷれぜんと",
+    "file": "audio/words/0758.mp3"
+  },
+  {
+    "kana": "べる",
+    "file": "audio/words/0759.mp3"
+  },
+  {
+    "kana": "ほど",
+    "file": "audio/words/0760.mp3"
+  },
+  {
+    "kana": "ほとんど",
+    "file": "audio/words/0761.mp3"
+  },
+  {
+    "kana": "ほめる",
+    "file": "audio/words/0762.mp3"
+  },
+  {
+    "kana": "まじめ",
+    "file": "audio/words/0763.mp3"
+  },
+  {
+    "kana": "まず",
+    "file": "audio/words/0764.mp3"
+  },
+  {
+    "kana": "または",
+    "file": "audio/words/0765.mp3"
+  },
+  {
+    "kana": "もうすぐ",
+    "file": "audio/words/0766.mp3"
+  },
+  {
+    "kana": "もし",
+    "file": "audio/words/0767.mp3"
+  },
+  {
+    "kana": "もちろん",
+    "file": "audio/words/0768.mp3"
+  },
+  {
+    "kana": "もっとも",
+    "file": "audio/words/0769.mp3"
+  },
+  {
+    "kana": "もらう",
+    "file": "audio/words/0770.mp3"
+  },
+  {
+    "kana": "やっと",
+    "file": "audio/words/0771.mp3"
+  },
+  {
+    "kana": "よろしい",
+    "file": "audio/words/0772.mp3"
+  },
+  {
+    "kana": "れじ",
+    "file": "audio/words/0773.mp3"
+  },
+  {
+    "kana": "わあぷろ",
+    "file": "audio/words/0774.mp3"
+  },
+  {
+    "kana": "あんしん",
+    "file": "audio/words/0775.mp3"
+  },
+  {
+    "kana": "あんぜん",
+    "file": "audio/words/0776.mp3"
+  },
+  {
+    "kana": "あんないする",
+    "file": "audio/words/0777.mp3"
+  },
+  {
+    "kana": "いか",
+    "file": "audio/words/0778.mp3"
+  },
+  {
+    "kana": "いがい",
+    "file": "audio/words/0779.mp3"
+  },
+  {
+    "kana": "いじょう",
+    "file": "audio/words/0780.mp3"
+  },
+  {
+    "kana": "いない",
+    "file": "audio/words/0781.mp3"
+  },
+  {
+    "kana": "いけん",
+    "file": "audio/words/0782.mp3"
+  },
+  {
+    "kana": "ため",
+    "file": "audio/words/0783.mp3"
+  },
+  {
+    "kana": "うつる",
+    "file": "audio/words/0784.mp3"
+  },
+  {
+    "kana": "いがく",
+    "file": "audio/words/0785.mp3"
+  },
+  {
+    "kana": "そだてる",
+    "file": "audio/words/0786.mp3"
+  },
+  {
+    "kana": "いっしょうけんめい",
+    "file": "audio/words/0787.mp3"
+  },
+  {
+    "kana": "いちど",
+    "file": "audio/words/0788.mp3"
+  },
+  {
+    "kana": "ひきだし",
+    "file": "audio/words/0789.mp3"
+  },
+  {
+    "kana": "ひきだす",
+    "file": "audio/words/0790.mp3"
+  },
+  {
+    "kana": "ひっこす",
+    "file": "audio/words/0791.mp3"
+  },
+  {
+    "kana": "はこぶ",
+    "file": "audio/words/0792.mp3"
+  },
+  {
+    "kana": "うんてんする",
+    "file": "audio/words/0793.mp3"
+  },
+  {
+    "kana": "うんてんしゅ",
+    "file": "audio/words/0794.mp3"
+  },
+  {
+    "kana": "うんどうする",
+    "file": "audio/words/0795.mp3"
+  },
+  {
+    "kana": "くも",
+    "file": "audio/words/0796.mp3"
+  },
+  {
+    "kana": "およぎかた",
+    "file": "audio/words/0797.mp3"
+  },
+  {
+    "kana": "とおく",
+    "file": "audio/words/0798.mp3"
+  },
+  {
+    "kana": "えんりょする",
+    "file": "audio/words/0799.mp3"
+  },
+  {
+    "kana": "よごれる",
+    "file": "audio/words/0800.mp3"
+  },
+  {
+    "kana": "おしいれ",
+    "file": "audio/words/0801.mp3"
+  },
+  {
+    "kana": "おくじょう",
+    "file": "audio/words/0802.mp3"
+  },
+  {
+    "kana": "おと",
+    "file": "audio/words/0803.mp3"
+  },
+  {
+    "kana": "さげる",
+    "file": "audio/words/0804.mp3"
+  },
+  {
+    "kana": "さがる",
+    "file": "audio/words/0805.mp3"
+  },
+  {
+    "kana": "げしゅく",
+    "file": "audio/words/0806.mp3"
+  },
+  {
+    "kana": "したぎ",
+    "file": "audio/words/0807.mp3"
+  },
+  {
+    "kana": "かない",
+    "file": "audio/words/0808.mp3"
+  },
+  {
+    "kana": "かがく",
+    "file": "audio/words/0809.mp3"
+  },
+  {
+    "kana": "かじ",
+    "file": "audio/words/0810.mp3"
+  },
+  {
+    "kana": "はなみ",
+    "file": "audio/words/0811.mp3"
+  },
+  {
+    "kana": "かちょう",
+    "file": "audio/words/0812.mp3"
+  },
+  {
+    "kana": "すぎる",
+    "file": "audio/words/0813.mp3"
+  },
+  {
+    "kana": "かいぎ",
+    "file": "audio/words/0814.mp3"
+  },
+  {
+    "kana": "かいぎしつ",
+    "file": "audio/words/0815.mp3"
+  },
+  {
+    "kana": "かいじょう",
+    "file": "audio/words/0816.mp3"
+  },
+  {
+    "kana": "かいわ",
+    "file": "audio/words/0817.mp3"
+  },
+  {
+    "kana": "まわる",
+    "file": "audio/words/0818.mp3"
+  },
+  {
+    "kana": "こわす",
+    "file": "audio/words/0819.mp3"
+  },
+  {
+    "kana": "こわれる",
+    "file": "audio/words/0820.mp3"
+  },
+  {
+    "kana": "かいがん",
+    "file": "audio/words/0821.mp3"
+  },
+  {
+    "kana": "みな",
+    "file": "audio/words/0822.mp3"
+  },
+  {
+    "kana": "ひらく",
+    "file": "audio/words/0823.mp3"
+  },
+  {
+    "kana": "たしか",
+    "file": "audio/words/0824.mp3"
+  },
+  {
+    "kana": "たのしみ",
+    "file": "audio/words/0825.mp3"
+  },
+  {
+    "kana": "たのしむ",
+    "file": "audio/words/0826.mp3"
+  },
+  {
+    "kana": "われる",
+    "file": "audio/words/0827.mp3"
+  },
+  {
+    "kana": "わりあい",
+    "file": "audio/words/0828.mp3"
+  },
+  {
+    "kana": "すべる",
+    "file": "audio/words/0829.mp3"
+  },
+  {
+    "kana": "かむ",
+    "file": "audio/words/0830.mp3"
+  },
+  {
+    "kana": "かわく",
+    "file": "audio/words/0831.mp3"
+  },
+  {
+    "kana": "なれる",
+    "file": "audio/words/0832.mp3"
+  },
+  {
+    "kana": "かんごふ",
+    "file": "audio/words/0833.mp3"
+  },
+  {
+    "kana": "かんたん",
+    "file": "audio/words/0834.mp3"
+  },
+  {
+    "kana": "あいだ",
+    "file": "audio/words/0835.mp3"
+  },
+  {
+    "kana": "まにあう",
+    "file": "audio/words/0836.mp3"
+  },
+  {
+    "kana": "まちがえる",
+    "file": "audio/words/0837.mp3"
+  },
+  {
+    "kana": "かんけい",
+    "file": "audio/words/0838.mp3"
+  },
+  {
+    "kana": "きけん",
+    "file": "audio/words/0839.mp3"
+  },
+  {
+    "kana": "よろこぶ",
+    "file": "audio/words/0840.mp3"
+  },
+  {
+    "kana": "きかい",
+    "file": "audio/words/0841.mp3"
+  },
+  {
+    "kana": "かえり",
+    "file": "audio/words/0842.mp3"
+  },
+  {
+    "kana": "きもち",
+    "file": "audio/words/0843.mp3"
+  },
+  {
+    "kana": "きぶん",
+    "file": "audio/words/0844.mp3"
+  },
+  {
+    "kana": "きしゃ",
+    "file": "audio/words/0845.mp3"
+  },
+  {
+    "kana": "いのる",
+    "file": "audio/words/0846.mp3"
+  },
+  {
+    "kana": "きせつ",
+    "file": "audio/words/0847.mp3"
+  },
+  {
+    "kana": "きそく",
+    "file": "audio/words/0848.mp3"
+  },
+  {
+    "kana": "おこす",
+    "file": "audio/words/0849.mp3"
+  },
+  {
+    "kana": "ぎじゅつ",
+    "file": "audio/words/0850.mp3"
+  },
+  {
+    "kana": "きゃく",
+    "file": "audio/words/0851.mp3"
+  },
+  {
+    "kana": "ひさしぶり",
+    "file": "audio/words/0852.mp3"
+  },
+  {
+    "kana": "きゅう",
+    "file": "audio/words/0853.mp3"
+  },
+  {
+    "kana": "いそぐ",
+    "file": "audio/words/0854.mp3"
+  },
+  {
+    "kana": "きゅうこう",
+    "file": "audio/words/0855.mp3"
+  },
+  {
+    "kana": "きょうそう",
+    "file": "audio/words/0856.mp3"
+  },
+  {
+    "kana": "きょういく",
+    "file": "audio/words/0857.mp3"
+  },
+  {
+    "kana": "きょうかい",
+    "file": "audio/words/0858.mp3"
+  },
+  {
+    "kana": "きょうみ",
+    "file": "audio/words/0859.mp3"
+  },
+  {
+    "kana": "かがみ",
+    "file": "audio/words/0860.mp3"
+  },
+  {
+    "kana": "おどろく",
+    "file": "audio/words/0861.mp3"
+  },
+  {
+    "kana": "きんじょ",
+    "file": "audio/words/0862.mp3"
+  },
+  {
+    "kana": "にがい",
+    "file": "audio/words/0863.mp3"
+  },
+  {
+    "kana": "ぐあい",
+    "file": "audio/words/0864.mp3"
+  },
+  {
+    "kana": "くうき",
+    "file": "audio/words/0865.mp3"
+  },
+  {
+    "kana": "くうこう",
+    "file": "audio/words/0866.mp3"
+  },
+  {
+    "kana": "すみ",
+    "file": "audio/words/0867.mp3"
+  },
+  {
+    "kana": "きみ",
+    "file": "audio/words/0868.mp3"
+  },
+  {
+    "kana": "かたち",
+    "file": "audio/words/0869.mp3"
+  },
+  {
+    "kana": "けしき",
+    "file": "audio/words/0870.mp3"
+  },
+  {
+    "kana": "けいけんする",
+    "file": "audio/words/0871.mp3"
+  },
+  {
+    "kana": "けいざい",
+    "file": "audio/words/0872.mp3"
+  },
+  {
+    "kana": "けいかくする",
+    "file": "audio/words/0873.mp3"
+  },
+  {
+    "kana": "けいさつ",
+    "file": "audio/words/0874.mp3"
+  },
+  {
+    "kana": "むかえる",
+    "file": "audio/words/0875.mp3"
+  },
+  {
+    "kana": "けっして",
+    "file": "audio/words/0876.mp3"
+  },
+  {
+    "kana": "きめる",
+    "file": "audio/words/0877.mp3"
+  },
+  {
+    "kana": "きまる",
+    "file": "audio/words/0878.mp3"
+  },
+  {
+    "kana": "かたい",
+    "file": "audio/words/0879.mp3"
+  },
+  {
+    "kana": "たてる",
+    "file": "audio/words/0880.mp3"
+  },
+  {
+    "kana": "けんきゅう",
+    "file": "audio/words/0881.mp3"
+  },
+  {
+    "kana": "けんきゅうしつ",
+    "file": "audio/words/0882.mp3"
+  },
+  {
+    "kana": "きぬ",
+    "file": "audio/words/0883.mp3"
+  },
+  {
+    "kana": "みえる",
+    "file": "audio/words/0884.mp3"
+  },
+  {
+    "kana": "みつかる",
+    "file": "audio/words/0885.mp3"
+  },
+  {
+    "kana": "みつける",
+    "file": "audio/words/0886.mp3"
+  },
+  {
+    "kana": "けんぶつ",
+    "file": "audio/words/0887.mp3"
+  },
+  {
+    "kana": "げんいん",
+    "file": "audio/words/0888.mp3"
+  },
+  {
+    "kana": "きびしい",
+    "file": "audio/words/0889.mp3"
+  },
+  {
+    "kana": "こしょうする",
+    "file": "audio/words/0890.mp3"
+  },
+  {
+    "kana": "みずうみ",
+    "file": "audio/words/0891.mp3"
+  },
+  {
+    "kana": "ごしゅじん",
+    "file": "audio/words/0892.mp3"
+  },
+  {
+    "kana": "こうつう",
+    "file": "audio/words/0893.mp3"
+  },
+  {
+    "kana": "ひかり",
+    "file": "audio/words/0894.mp3"
+  },
+  {
+    "kana": "ひかる",
+    "file": "audio/words/0895.mp3"
+  },
+  {
+    "kana": "こうむいん",
+    "file": "audio/words/0896.mp3"
+  },
+  {
+    "kana": "むかう",
+    "file": "audio/words/0897.mp3"
+  },
+  {
+    "kana": "こうぎょう",
+    "file": "audio/words/0898.mp3"
+  },
+  {
+    "kana": "こうじょう",
+    "file": "audio/words/0899.mp3"
+  },
+  {
+    "kana": "こうちょう",
+    "file": "audio/words/0900.mp3"
+  },
+  {
+    "kana": "みなと",
+    "file": "audio/words/0901.mp3"
+  },
+  {
+    "kana": "かんがえる",
+    "file": "audio/words/0902.mp3"
+  },
+  {
+    "kana": "おこなう",
+    "file": "audio/words/0903.mp3"
+  },
+  {
+    "kana": "こうぎ",
+    "file": "audio/words/0904.mp3"
+  },
+  {
+    "kana": "こうどう",
+    "file": "audio/words/0905.mp3"
+  },
+  {
+    "kana": "こうがい",
+    "file": "audio/words/0906.mp3"
+  },
+  {
+    "kana": "ふりだす",
+    "file": "audio/words/0907.mp3"
+  },
+  {
+    "kana": "こうこう",
+    "file": "audio/words/0908.mp3"
+  },
+  {
+    "kana": "こうこうせい",
+    "file": "audio/words/0909.mp3"
+  },
+  {
+    "kana": "こうとうがっこう",
+    "file": "audio/words/0910.mp3"
+  },
+  {
+    "kana": "こくさい",
+    "file": "audio/words/0911.mp3"
+  },
+  {
+    "kana": "こむ",
+    "file": "audio/words/0912.mp3"
+  },
+  {
+    "kana": "こんど",
+    "file": "audio/words/0913.mp3"
+  },
+  {
+    "kana": "こんや",
+    "file": "audio/words/0914.mp3"
+  },
+  {
+    "kana": "さしあげる",
+    "file": "audio/words/0915.mp3"
+  },
+  {
+    "kana": "すな",
+    "file": "audio/words/0916.mp3"
+  },
+  {
+    "kana": "さいきん",
+    "file": "audio/words/0917.mp3"
+  },
+  {
+    "kana": "さいご",
+    "file": "audio/words/0918.mp3"
+  },
+  {
+    "kana": "さいしょ",
+    "file": "audio/words/0919.mp3"
+  },
+  {
+    "kana": "つま",
+    "file": "audio/words/0920.mp3"
+  },
+  {
+    "kana": "こまかい",
+    "file": "audio/words/0921.mp3"
+  },
+  {
+    "kana": "さか",
+    "file": "audio/words/0922.mp3"
+  },
+  {
+    "kana": "まいる",
+    "file": "audio/words/0923.mp3"
+  },
+  {
+    "kana": "さんぎょう",
+    "file": "audio/words/0924.mp3"
+  },
+  {
+    "kana": "のこる",
+    "file": "audio/words/0925.mp3"
+  },
+  {
+    "kana": "ざんねん",
+    "file": "audio/words/0926.mp3"
+  },
+  {
+    "kana": "しかた",
+    "file": "audio/words/0927.mp3"
+  },
+  {
+    "kana": "はじめる",
+    "file": "audio/words/0928.mp3"
+  },
+  {
+    "kana": "しみん",
+    "file": "audio/words/0929.mp3"
+  },
+  {
+    "kana": "おもいだす",
+    "file": "audio/words/0930.mp3"
+  },
+  {
+    "kana": "おもう",
+    "file": "audio/words/0931.mp3"
+  },
+  {
+    "kana": "ゆび",
+    "file": "audio/words/0932.mp3"
+  },
+  {
+    "kana": "ゆびわ",
+    "file": "audio/words/0933.mp3"
+  },
+  {
+    "kana": "したくする",
+    "file": "audio/words/0934.mp3"
+  },
+  {
+    "kana": "えだ",
+    "file": "audio/words/0935.mp3"
+  },
+  {
+    "kana": "やむ",
+    "file": "audio/words/0936.mp3"
+  },
+  {
+    "kana": "とめる",
+    "file": "audio/words/0937.mp3"
+  },
+  {
+    "kana": "いと",
+    "file": "audio/words/0938.mp3"
+  },
+  {
+    "kana": "しけん",
+    "file": "audio/words/0939.mp3"
+  },
+  {
+    "kana": "しあい",
+    "file": "audio/words/0940.mp3"
+  },
+  {
+    "kana": "はいしゃ",
+    "file": "audio/words/0941.mp3"
+  },
+  {
+    "kana": "じこ",
+    "file": "audio/words/0942.mp3"
+  },
+  {
+    "kana": "じむしょ",
+    "file": "audio/words/0943.mp3"
+  },
+  {
+    "kana": "にる",
+    "file": "audio/words/0944.mp3"
+  },
+  {
+    "kana": "てら",
+    "file": "audio/words/0945.mp3"
+  },
+  {
+    "kana": "じだい",
+    "file": "audio/words/0946.mp3"
+  },
+  {
+    "kana": "なおる",
+    "file": "audio/words/0947.mp3"
+  },
+  {
+    "kana": "じゆう",
+    "file": "audio/words/0948.mp3"
+  },
+  {
+    "kana": "じてん",
+    "file": "audio/words/0949.mp3"
+  },
+  {
+    "kana": "しっぱい",
+    "file": "audio/words/0950.mp3"
+  },
+  {
+    "kana": "うつす",
+    "file": "audio/words/0951.mp3"
+  },
+  {
+    "kana": "すてる",
+    "file": "audio/words/0952.mp3"
+  },
+  {
+    "kana": "しゃかい",
+    "file": "audio/words/0953.mp3"
+  },
+  {
+    "kana": "しゃちょう",
+    "file": "audio/words/0954.mp3"
+  },
+  {
+    "kana": "あやまる",
+    "file": "audio/words/0955.mp3"
+  },
+  {
+    "kana": "さびしい",
+    "file": "audio/words/0956.mp3"
+  },
+  {
+    "kana": "とりかえる",
+    "file": "audio/words/0957.mp3"
+  },
+  {
+    "kana": "てぶくろ",
+    "file": "audio/words/0958.mp3"
+  },
+  {
+    "kana": "てつだう",
+    "file": "audio/words/0959.mp3"
+  },
+  {
+    "kana": "しゅみ",
+    "file": "audio/words/0960.mp3"
+  },
+  {
+    "kana": "くび",
+    "file": "audio/words/0961.mp3"
+  },
+  {
+    "kana": "うける",
+    "file": "audio/words/0962.mp3"
+  },
+  {
+    "kana": "うけつけ",
+    "file": "audio/words/0963.mp3"
+  },
+  {
+    "kana": "まわり",
+    "file": "audio/words/0964.mp3"
+  },
+  {
+    "kana": "ひろう",
+    "file": "audio/words/0965.mp3"
+  },
+  {
+    "kana": "おわり",
+    "file": "audio/words/0966.mp3"
+  },
+  {
+    "kana": "しゅうかん",
+    "file": "audio/words/0967.mp3"
+  },
+  {
+    "kana": "ふね",
+    "file": "audio/words/0968.mp3"
+  },
+  {
+    "kana": "あつめる",
+    "file": "audio/words/0969.mp3"
+  },
+  {
+    "kana": "あつまる",
+    "file": "audio/words/0970.mp3"
+  },
+  {
+    "kana": "じゅうしょ",
+    "file": "audio/words/0971.mp3"
+  },
+  {
+    "kana": "じゅうぶん",
+    "file": "audio/words/0972.mp3"
+  },
+  {
+    "kana": "やわらかい",
+    "file": "audio/words/0973.mp3"
+  },
+  {
+    "kana": "じゅうどう",
+    "file": "audio/words/0974.mp3"
+  },
+  {
+    "kana": "しゅっせきする",
+    "file": "audio/words/0975.mp3"
+  },
+  {
+    "kana": "しゅっぱつする",
+    "file": "audio/words/0976.mp3"
+  },
+  {
+    "kana": "じゅんびする",
+    "file": "audio/words/0977.mp3"
+  },
+  {
+    "kana": "じょせい",
+    "file": "audio/words/0978.mp3"
+  },
+  {
+    "kana": "かつ",
+    "file": "audio/words/0979.mp3"
+  },
+  {
+    "kana": "めしあがる",
+    "file": "audio/words/0980.mp3"
+  },
+  {
+    "kana": "しょうらい",
+    "file": "audio/words/0981.mp3"
+  },
+  {
+    "kana": "しょうがっこう",
+    "file": "audio/words/0982.mp3"
+  },
+  {
+    "kana": "しょうせつ",
+    "file": "audio/words/0983.mp3"
+  },
+  {
+    "kana": "ことり",
+    "file": "audio/words/0984.mp3"
+  },
+  {
+    "kana": "しょうちする",
+    "file": "audio/words/0985.mp3"
+  },
+  {
+    "kana": "しょうたいする",
+    "file": "audio/words/0986.mp3"
+  },
+  {
+    "kana": "けしごむ",
+    "file": "audio/words/0987.mp3"
+  },
+  {
+    "kana": "やく",
+    "file": "audio/words/0988.mp3"
+  },
+  {
+    "kana": "やける",
+    "file": "audio/words/0989.mp3"
+  },
+  {
+    "kana": "わらう",
+    "file": "audio/words/0990.mp3"
+  },
+  {
+    "kana": "しょうかい",
+    "file": "audio/words/0991.mp3"
+  },
+  {
+    "kana": "あがる",
+    "file": "audio/words/0992.mp3"
+  },
+  {
+    "kana": "のりかえる",
+    "file": "audio/words/0993.mp3"
+  },
+  {
+    "kana": "のりもの",
+    "file": "audio/words/0994.mp3"
+  },
+  {
+    "kana": "ばあい",
+    "file": "audio/words/0995.mp3"
+  },
+  {
+    "kana": "ばしょ",
+    "file": "audio/words/0996.mp3"
+  },
+  {
+    "kana": "たたみ",
+    "file": "audio/words/0997.mp3"
+  },
+  {
+    "kana": "かざる",
+    "file": "audio/words/0998.mp3"
+  },
+  {
+    "kana": "うえる",
+    "file": "audio/words/0999.mp3"
+  },
+  {
+    "kana": "さわる",
+    "file": "audio/words/1000.mp3"
+  },
+  {
+    "kana": "しょくじする",
+    "file": "audio/words/1001.mp3"
+  },
+  {
+    "kana": "しょくりょうひん",
+    "file": "audio/words/1002.mp3"
+  },
+  {
+    "kana": "ねぼう",
+    "file": "audio/words/1003.mp3"
+  },
+  {
+    "kana": "こころ",
+    "file": "audio/words/1004.mp3"
+  },
+  {
+    "kana": "しんぱいする",
+    "file": "audio/words/1005.mp3"
+  },
+  {
+    "kana": "しんぶんしゃ",
+    "file": "audio/words/1006.mp3"
+  },
+  {
+    "kana": "もり",
+    "file": "audio/words/1007.mp3"
+  },
+  {
+    "kana": "ふかい",
+    "file": "audio/words/1008.mp3"
+  },
+  {
+    "kana": "もうしあげる",
+    "file": "audio/words/1009.mp3"
+  },
+  {
+    "kana": "もうす",
+    "file": "audio/words/1010.mp3"
+  },
+  {
+    "kana": "まんなか",
+    "file": "audio/words/1011.mp3"
+  },
+  {
+    "kana": "じんじゃ",
+    "file": "audio/words/1012.mp3"
+  },
+  {
+    "kana": "おや",
+    "file": "audio/words/1013.mp3"
+  },
+  {
+    "kana": "しんせつ",
+    "file": "audio/words/1014.mp3"
+  },
+  {
+    "kana": "すすむ",
+    "file": "audio/words/1015.mp3"
+  },
+  {
+    "kana": "にんぎょう",
+    "file": "audio/words/1016.mp3"
+  },
+  {
+    "kana": "じんこう",
+    "file": "audio/words/1017.mp3"
+  },
+  {
+    "kana": "たずねる",
+    "file": "audio/words/1018.mp3"
+  },
+  {
+    "kana": "すいえい",
+    "file": "audio/words/1019.mp3"
+  },
+  {
+    "kana": "すいどう",
+    "file": "audio/words/1020.mp3"
+  },
+  {
+    "kana": "すうがく",
+    "file": "audio/words/1021.mp3"
+  },
+  {
+    "kana": "せかい",
+    "file": "audio/words/1022.mp3"
+  },
+  {
+    "kana": "せわする",
+    "file": "audio/words/1023.mp3"
+  },
+  {
+    "kana": "すごい",
+    "file": "audio/words/1024.mp3"
+  },
+  {
+    "kana": "せいじ",
+    "file": "audio/words/1025.mp3"
+  },
+  {
+    "kana": "ほし",
+    "file": "audio/words/1026.mp3"
+  },
+  {
+    "kana": "ただしい",
+    "file": "audio/words/1027.mp3"
+  },
+  {
+    "kana": "いきる",
+    "file": "audio/words/1028.mp3"
+  },
+  {
+    "kana": "せいかつする",
+    "file": "audio/words/1029.mp3"
+  },
+  {
+    "kana": "せいさんする",
+    "file": "audio/words/1030.mp3"
+  },
+  {
+    "kana": "さかん",
+    "file": "audio/words/1031.mp3"
+  },
+  {
+    "kana": "せいよう",
+    "file": "audio/words/1032.mp3"
+  },
+  {
+    "kana": "せき",
+    "file": "audio/words/1033.mp3"
+  },
+  {
+    "kana": "むかし",
+    "file": "audio/words/1034.mp3"
+  },
+  {
+    "kana": "いし",
+    "file": "audio/words/1035.mp3"
+  },
+  {
+    "kana": "あかんぼう",
+    "file": "audio/words/1036.mp3"
+  },
+  {
+    "kana": "おる",
+    "file": "audio/words/1037.mp3"
+  },
+  {
+    "kana": "おれる",
+    "file": "audio/words/1038.mp3"
+  },
+  {
+    "kana": "せつめい",
+    "file": "audio/words/1039.mp3"
+  },
+  {
+    "kana": "せんぱい",
+    "file": "audio/words/1040.mp3"
+  },
+  {
+    "kana": "せんそう",
+    "file": "audio/words/1041.mp3"
+  },
+  {
+    "kana": "あさい",
+    "file": "audio/words/1042.mp3"
+  },
+  {
+    "kana": "えらぶ",
+    "file": "audio/words/1043.mp3"
+  },
+  {
+    "kana": "そふ",
+    "file": "audio/words/1044.mp3"
+  },
+  {
+    "kana": "そぼ",
+    "file": "audio/words/1045.mp3"
+  },
+  {
+    "kana": "やせる",
+    "file": "audio/words/1046.mp3"
+  },
+  {
+    "kana": "そうだんする",
+    "file": "audio/words/1047.mp3"
+  },
+  {
+    "kana": "くさ",
+    "file": "audio/words/1048.mp3"
+  },
+  {
+    "kana": "おくる",
+    "file": "audio/words/1049.mp3"
+  },
+  {
+    "kana": "さわぐ",
+    "file": "audio/words/1050.mp3"
+  },
+  {
+    "kana": "ふえる",
+    "file": "audio/words/1051.mp3"
+  },
+  {
+    "kana": "おくりもの",
+    "file": "audio/words/1052.mp3"
+  },
+  {
+    "kana": "むすこ",
+    "file": "audio/words/1053.mp3"
+  },
+  {
+    "kana": "たす",
+    "file": "audio/words/1054.mp3"
+  },
+  {
+    "kana": "たりる",
+    "file": "audio/words/1055.mp3"
+  },
+  {
+    "kana": "つづく",
+    "file": "audio/words/1056.mp3"
+  },
+  {
+    "kana": "つづける",
+    "file": "audio/words/1057.mp3"
+  },
+  {
+    "kana": "そつぎょう",
+    "file": "audio/words/1058.mp3"
+  },
+  {
+    "kana": "ふとる",
+    "file": "audio/words/1059.mp3"
+  },
+  {
+    "kana": "うつ",
+    "file": "audio/words/1060.mp3"
+  },
+  {
+    "kana": "たいいんする",
+    "file": "audio/words/1061.mp3"
+  },
+  {
+    "kana": "かわり",
+    "file": "audio/words/1062.mp3"
+  },
+  {
+    "kana": "たいふう",
+    "file": "audio/words/1063.mp3"
+  },
+  {
+    "kana": "だいがくせい",
+    "file": "audio/words/1064.mp3"
+  },
+  {
+    "kana": "だいじ",
+    "file": "audio/words/1065.mp3"
+  },
+  {
+    "kana": "だいたい",
+    "file": "audio/words/1066.mp3"
+  },
+  {
+    "kana": "だいぶ",
+    "file": "audio/words/1067.mp3"
+  },
+  {
+    "kana": "たな",
+    "file": "audio/words/1068.mp3"
+  },
+  {
+    "kana": "さがす",
+    "file": "audio/words/1069.mp3"
+  },
+  {
+    "kana": "だんぼう",
+    "file": "audio/words/1070.mp3"
+  },
+  {
+    "kana": "だんせい",
+    "file": "audio/words/1071.mp3"
+  },
+  {
+    "kana": "しらせる",
+    "file": "audio/words/1072.mp3"
+  },
+  {
+    "kana": "じしん",
+    "file": "audio/words/1073.mp3"
+  },
+  {
+    "kana": "ちり",
+    "file": "audio/words/1074.mp3"
+  },
+  {
+    "kana": "はずかしい",
+    "file": "audio/words/1075.mp3"
+  },
+  {
+    "kana": "いたす",
+    "file": "audio/words/1076.mp3"
+  },
+  {
+    "kana": "おくれる",
+    "file": "audio/words/1077.mp3"
+  },
+  {
+    "kana": "きもの",
+    "file": "audio/words/1078.mp3"
+  },
+  {
+    "kana": "なかなか",
+    "file": "audio/words/1079.mp3"
+  },
+  {
+    "kana": "ちゅうがっこう",
+    "file": "audio/words/1080.mp3"
+  },
+  {
+    "kana": "ひるま",
+    "file": "audio/words/1081.mp3"
+  },
+  {
+    "kana": "ひるやすみ",
+    "file": "audio/words/1082.mp3"
+  },
+  {
+    "kana": "ちゅうい",
+    "file": "audio/words/1083.mp3"
+  },
+  {
+    "kana": "ちゅうしゃ",
+    "file": "audio/words/1084.mp3"
+  },
+  {
+    "kana": "むし",
+    "file": "audio/words/1085.mp3"
+  },
+  {
+    "kana": "ちゅうしゃじょう",
+    "file": "audio/words/1086.mp3"
+  },
+  {
+    "kana": "ていねい",
+    "file": "audio/words/1087.mp3"
+  },
+  {
+    "kana": "しらべる",
+    "file": "audio/words/1088.mp3"
+  },
+  {
+    "kana": "なおす",
+    "file": "audio/words/1089.mp3"
+  },
+  {
+    "kana": "めずらしい",
+    "file": "audio/words/1090.mp3"
+  },
+  {
+    "kana": "かよう",
+    "file": "audio/words/1091.mp3"
+  },
+  {
+    "kana": "とおる",
+    "file": "audio/words/1092.mp3"
+  },
+  {
+    "kana": "つる",
+    "file": "audio/words/1093.mp3"
+  },
+  {
+    "kana": "どろぼう",
+    "file": "audio/words/1094.mp3"
+  },
+  {
+    "kana": "てきとう",
+    "file": "audio/words/1095.mp3"
+  },
+  {
+    "kana": "てんきよほう",
+    "file": "audio/words/1096.mp3"
+  },
+  {
+    "kana": "てんらんかい",
+    "file": "audio/words/1097.mp3"
+  },
+  {
+    "kana": "てんいん",
+    "file": "audio/words/1098.mp3"
+  },
+  {
+    "kana": "てん",
+    "file": "audio/words/1099.mp3"
+  },
+  {
+    "kana": "つたえる",
+    "file": "audio/words/1100.mp3"
+  }
+]
