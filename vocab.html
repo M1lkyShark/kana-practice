@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="purple">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,interactive-widget=resizes-content">
+  <meta name="theme-color" id="themeColor" content="#120922">
+  <meta name="description" content="日语初级单词学习：按主题分单元，结合词义、反向识别、听力与间隔复习。">
+  <title>单词模式</title>
+  <script>try{const t=localStorage.getItem('kanaSprintTheme');document.documentElement.dataset.theme=['blue','pink','navy'].includes(t)?t:'purple'}catch{}</script>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='17' fill='%2370c4eb'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='sans-serif' font-size='31' font-weight='800' fill='white'%3E%E8%AF%8D%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="vocab.css">
+</head>
+<body class="vocab-home-page">
+  <header class="appbar">
+    <a class="mode-switch" href="index.html" aria-label="切换到五十音模式"><span>あ</span><b>五十音模式</b></a>
+    <div class="appbar-actions top-actions">
+      <button class="ghost-btn" id="soundBtn" type="button" aria-pressed="true">音效：开</button>
+      <button class="ghost-btn" id="historyBtn" type="button">成绩记录</button>
+      <button class="ghost-btn" id="settingsBtn" type="button" aria-expanded="false" aria-controls="settingsPopover">设置</button>
+      <div class="settings-popover hidden" id="settingsPopover" role="dialog" aria-label="设置">
+        <span class="settings-title">主题</span>
+        <div class="theme-options">
+          <button class="theme-choice" data-theme-choice="purple" aria-pressed="true"><span class="theme-swatch purple"></span>紫色主题</button>
+          <button class="theme-choice" data-theme-choice="blue" aria-pressed="false"><span class="theme-swatch blue"></span>淡蓝主题</button>
+          <button class="theme-choice" data-theme-choice="pink" aria-pressed="false"><span class="theme-swatch pink"></span>粉色主题</button>
+          <button class="theme-choice" data-theme-choice="navy" aria-pressed="false"><span class="theme-swatch navy"></span>深蓝主题</button>
+        </div>
+        <div class="settings-danger"><span class="settings-title">数据</span><button class="erase-data-btn" id="eraseAllData" type="button">抹除所有数据</button><p class="settings-note">清空成绩、学习进度、薄弱统计、主题偏好及全部本地记录。</p></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="dashboard word-home" id="dashboardView">
+      <div class="word-home-brand-area">
+        <div class="corner-brand"><span>词</span><strong>单词模式</strong></div>
+        <button class="kana-home-btn" id="kanaTableBtn" type="button">假名表</button>
+        <span class="version-label">v1.0</span>
+      </div>
+      <section class="word-home-panel" aria-label="单词模式功能">
+        <div class="home-progress-row">
+          <div class="progress-orbit" id="progressOrbit"><div><strong id="masteredPercent">0%</strong><span>总掌握度</span></div></div>
+          <div class="home-stats">
+            <div><small>已学习</small><strong id="learnedCount">0</strong></div>
+            <div><small>已掌握</small><strong id="masteredCount">0</strong></div>
+            <div><small>全部词汇</small><strong id="totalCount">662</strong></div>
+          </div>
+        </div>
+        <p class="today-hint" id="todayHint">从第一章的高频表达开始吧。</p>
+        <div class="word-home-actions">
+          <a class="home-mode-card primary" href="vocab-chapters.html">
+            <span><small>分章节与单元学习</small><strong>按主题学习</strong></span><b>→</b>
+          </a>
+          <button class="home-mode-card" id="reviewBtn" type="button">
+            <span><small>复习已经到期的词汇</small><strong>复习模式</strong></span><b id="dueBadge">0</b>
+          </button>
+          <button class="home-mode-card" id="wordbookBtn" type="button">
+            <span><small>集中查看曾经答错的词</small><strong>单词本</strong></span><b id="bookBadge">0</b>
+          </button>
+        </div>
+        <button class="all-words-link" id="libraryBtn" type="button">查看全部词库</button>
+      </section>
+      <footer class="credits word-home-credits">
+        <p>词汇资料来自 <a href="https://github.com/evanclan/OpenJLPT" target="_blank" rel="noreferrer">OpenJLPT</a>、<a href="https://github.com/5mdld/anki-jlpt-decks" target="_blank" rel="noreferrer">egg rolls JLPT 牌组</a>及 <a href="https://github.com/lxl66566/Japanese-Chinese-thesaurus" target="_blank" rel="noreferrer">Japanese-Chinese-thesaurus</a>，仅供非商业学习使用。</p>
+      </footer>
+    </section>
+
+    <section class="session hidden" id="sessionView">
+      <div class="session-top">
+        <button class="session-back" id="sessionBack" type="button">← 返回</button>
+        <div class="session-title"><small id="sessionMode">单元学习</small><strong id="sessionChapter">基础表达</strong></div>
+        <div class="session-counter"><strong id="sessionCurrent">1</strong><span>/</span><span id="sessionTotal">10</span></div>
+      </div>
+      <div class="session-progress"><i id="sessionProgress"></i></div>
+      <div class="study-stage">
+        <article class="study-card" id="studyCard">
+          <div class="card-label" id="questionLabel">首次学习</div>
+          <button class="speak-button" id="speakBtn" type="button" aria-label="播放日语读音">♪</button>
+          <div class="word-main" id="wordMain">ありがとう</div>
+          <div class="word-reading" id="wordReading">ありがとう</div>
+          <div class="word-romaji" id="wordRomaji">arigatou</div>
+          <div class="word-meaning" id="wordMeaning">谢谢</div>
+          <div class="example-block" id="exampleBlock"><small>例句</small><p id="exampleText"></p><span id="exampleMeaning"></span></div>
+          <div class="choice-grid hidden" id="choiceGrid"></div>
+          <p class="answer-feedback" id="answerFeedback" aria-live="polite"></p>
+          <button class="next-card" id="nextCard" type="button">下一个 <span>→</span></button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="drawer hidden" id="libraryDrawer">
+    <div class="drawer-backdrop" data-close-library></div>
+    <aside class="drawer-panel">
+      <div class="drawer-head">
+        <div><p class="eyebrow" id="libraryEyebrow">VOCABULARY</p><h2 id="libraryTitle">全部词库</h2></div>
+        <div class="drawer-head-actions"><button class="library-practice hidden" id="libraryPractice" type="button">开始复习</button><button data-close-library aria-label="关闭">×</button></div>
+      </div>
+      <div class="library-tools"><input id="librarySearch" type="search" placeholder="搜索日语、假名、罗马音或中文…"><select id="libraryChapter"><option value="all">全部章节</option></select></div>
+      <p class="library-count" id="libraryCount">共 662 个词</p>
+      <div class="library-list" id="libraryList"></div>
+    </aside>
+  </div>
+
+  <div class="drawer hidden" id="historyDrawer">
+    <div class="drawer-backdrop" data-close-history></div>
+    <aside class="drawer-panel history-panel">
+      <div class="drawer-head"><div><p class="eyebrow">HISTORY</p><h2>成绩记录</h2></div><button data-close-history aria-label="关闭">×</button></div>
+      <div class="word-history-summary"><div><small>总记录</small><strong id="historyTotal">0</strong></div><div><small>累计学习词汇</small><strong id="historyWords">0</strong></div><div><small>最佳正确率</small><strong id="historyBest">0%</strong></div></div>
+      <div class="word-history-list" id="historyList"></div>
+      <button class="clear-history" id="clearHistory" type="button">清除全部记录</button>
+    </aside>
+  </div>
+
+  <div class="drawer hidden" id="kanaDrawer">
+    <div class="drawer-backdrop" data-close-kana></div>
+    <aside class="drawer-panel kana-panel">
+      <div class="drawer-head"><div><p class="eyebrow">KANA CHART</p><h2>假名表</h2></div><button data-close-kana aria-label="关闭">×</button></div>
+      <p class="chart-intro">每行属于同一组发音。点击任意假名即可播放内置日语读音。</p>
+      <div class="chart-tabs" aria-label="假名表类型"><button class="active" data-chart-script="hira" type="button">平假名</button><button data-chart-script="kata" type="button">片假名</button></div>
+      <div id="kanaChart"></div>
+      <p class="speak-status" id="kanaSpeakStatus" aria-live="polite">点击假名即可朗读。</p>
+    </aside>
+  </div>
+
+  <div class="result-overlay hidden" id="resultOverlay">
+    <div class="result-card">
+      <span class="result-mark">✓</span>
+      <p class="eyebrow">SESSION COMPLETE</p>
+      <h2 id="resultTitle">本次学习完成</h2>
+      <p id="resultSummary">完成本单元的学习</p>
+      <div class="result-stats"><div><small>答对</small><strong id="resultCorrect">0</strong></div><div><small>正确率</small><strong id="resultAccuracy">0%</strong></div><div><small>提升掌握</small><strong id="resultImproved">0</strong></div></div>
+      <div class="result-actions"><button id="resultHome" type="button">返回</button><button id="resultAgain" type="button">再练一次</button></div>
+    </div>
+  </div>
+
+  <script src="data/n5-vocab.js"></script>
+  <script src="vocab.js"></script>
+</body>
+</html>

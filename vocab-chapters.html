@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="purple">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" id="themeColor" content="#120922">
+  <meta name="description" content="按主题和单元学习日语初级单词。">
+  <title>按主题学习｜单词模式</title>
+  <script>try{const t=localStorage.getItem('kanaSprintTheme');document.documentElement.dataset.theme=['blue','pink','navy'].includes(t)?t:'purple'}catch{}</script>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='17' fill='%2370c4eb'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='sans-serif' font-size='31' font-weight='800' fill='white'%3E%E8%AF%8D%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="vocab.css">
+</head>
+<body class="chapter-page-body">
+  <header class="appbar">
+    <a class="mode-switch" href="vocab.html" aria-label="返回单词模式"><span>词</span><b>单词模式</b></a>
+    <div class="appbar-actions top-actions">
+      <button class="ghost-btn" id="soundBtn" type="button" aria-pressed="true">音效：开</button>
+      <button class="ghost-btn" id="historyBtn" type="button">成绩记录</button>
+      <button class="ghost-btn" id="settingsBtn" type="button" aria-expanded="false" aria-controls="settingsPopover">设置</button>
+      <div class="settings-popover hidden" id="settingsPopover" role="dialog" aria-label="设置">
+        <span class="settings-title">主题</span>
+        <div class="theme-options">
+          <button class="theme-choice" data-theme-choice="purple" aria-pressed="true"><span class="theme-swatch purple"></span>紫色主题</button>
+          <button class="theme-choice" data-theme-choice="blue" aria-pressed="false"><span class="theme-swatch blue"></span>淡蓝主题</button>
+          <button class="theme-choice" data-theme-choice="pink" aria-pressed="false"><span class="theme-swatch pink"></span>粉色主题</button>
+          <button class="theme-choice" data-theme-choice="navy" aria-pressed="false"><span class="theme-swatch navy"></span>深蓝主题</button>
+        </div>
+        <div class="settings-danger"><span class="settings-title">数据</span><button class="erase-data-btn" id="eraseAllData" type="button">抹除所有数据</button><p class="settings-note">清空成绩、学习进度、薄弱统计、主题偏好及全部本地记录。</p></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="chapter-page">
+    <div class="chapter-page-heading">
+      <p class="eyebrow">LEARNING PATH</p>
+      <h1>按主题学习</h1>
+      <p>选择一个主题，再查看其中的学习单元。</p>
+    </div>
+    <div class="chapter-grid" id="chapterGrid"></div>
+  </main>
+
+  <div class="unit-overlay hidden" id="unitOverlay">
+    <div class="unit-backdrop" data-close-units></div>
+    <section class="unit-dialog" role="dialog" aria-modal="true" aria-labelledby="unitDialogTitle">
+      <div class="unit-dialog-head">
+        <div><p class="eyebrow" id="unitDialogEyebrow">CHAPTER 01</p><h2 id="unitDialogTitle">基础表达</h2><p id="unitDialogDesc"></p></div>
+        <button class="unit-close" data-close-units type="button" aria-label="关闭">×</button>
+      </div>
+      <div class="unit-picker">
+        <label for="unitSelect">学习单元</label>
+        <div class="unit-select-wrap"><select id="unitSelect" aria-label="选择学习单元"></select><span aria-hidden="true">⌄</span></div>
+      </div>
+      <div class="unit-word-list" id="unitWordList"></div>
+      <button class="unit-start" id="unitStart" type="button"><span>开始学习本单元</span><b>→</b></button>
+    </section>
+  </div>
+
+  <div class="drawer hidden" id="historyDrawer">
+    <div class="drawer-backdrop" data-close-history></div>
+    <aside class="drawer-panel history-panel">
+      <div class="drawer-head"><div><p class="eyebrow">HISTORY</p><h2>成绩记录</h2></div><button data-close-history aria-label="关闭">×</button></div>
+      <div class="word-history-summary"><div><small>总记录</small><strong id="historyTotal">0</strong></div><div><small>累计学习词汇</small><strong id="historyWords">0</strong></div><div><small>最佳正确率</small><strong id="historyBest">0%</strong></div></div>
+      <div class="word-history-list" id="historyList"></div>
+      <button class="clear-history" id="clearHistory" type="button">清除全部记录</button>
+    </aside>
+  </div>
+
+  <script src="data/n5-vocab.js"></script>
+  <script src="vocab-chapters.js"></script>
+</body>
+</html>
