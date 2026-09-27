@@ -1,0 +1,422 @@
+[
+  {
+    "id": "n5-218",
+    "word": "何",
+    "reading": "なに",
+    "file": "audio/words-generated/n5-218.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-070",
+    "word": "じゃ／じゃあ",
+    "reading": "じゃ",
+    "file": "audio/words-generated/n5-070.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-172",
+    "word": "より・ほう",
+    "reading": "より",
+    "file": "audio/words-generated/n5-172.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-538",
+    "word": "二",
+    "reading": "に",
+    "file": "audio/words-generated/n5-538.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-357",
+    "word": "四",
+    "reading": "よん",
+    "file": "audio/words-generated/n5-357.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-304",
+    "word": "五",
+    "reading": "ご",
+    "file": "audio/words-generated/n5-304.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-379",
+    "word": "七",
+    "reading": "なな",
+    "file": "audio/words-generated/n5-379.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-396",
+    "word": "十",
+    "reading": "じゅう",
+    "file": "audio/words-generated/n5-396.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-189",
+    "word": "一月",
+    "reading": "いちがつ",
+    "file": "audio/words-generated/n5-189.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-048",
+    "word": "カレンダー",
+    "reading": "カレンダー",
+    "file": "audio/words-generated/n5-048.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-608",
+    "word": "毎月",
+    "reading": "まいつき",
+    "file": "audio/words-generated/n5-608.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-612",
+    "word": "毎年",
+    "reading": "まいとし",
+    "file": "audio/words-generated/n5-612.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-365",
+    "word": "私",
+    "reading": "わたし",
+    "file": "audio/words-generated/n5-365.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-559",
+    "word": "伯母／叔母",
+    "reading": "おば",
+    "file": "audio/words-generated/n5-559.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-058",
+    "word": "コーヒー",
+    "reading": "コーヒー",
+    "file": "audio/words-generated/n5-058.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-077",
+    "word": "スプーン",
+    "reading": "スプーン",
+    "file": "audio/words-generated/n5-077.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-112",
+    "word": "デパート",
+    "reading": "デパート",
+    "file": "audio/words-generated/n5-112.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-146",
+    "word": "フォーク",
+    "reading": "フォーク",
+    "file": "audio/words-generated/n5-146.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-096",
+    "word": "タクシー",
+    "reading": "タクシー",
+    "file": "audio/words-generated/n5-096.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-501",
+    "word": "中",
+    "reading": "ちゅう",
+    "file": "audio/words-generated/n5-501.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-303",
+    "word": "戸",
+    "reading": "と",
+    "file": "audio/words-generated/n5-303.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-135",
+    "word": "ノート",
+    "reading": "ノート",
+    "file": "audio/words-generated/n5-135.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-597",
+    "word": "勉強",
+    "reading": "べんきょう",
+    "file": "audio/words-generated/n5-597.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-152",
+    "word": "ボールペン",
+    "reading": "ボールペン",
+    "file": "audio/words-generated/n5-152.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-057",
+    "word": "コート",
+    "reading": "コート",
+    "file": "audio/words-generated/n5-057.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-074",
+    "word": "スカート",
+    "reading": "スカート",
+    "file": "audio/words-generated/n5-074.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-553",
+    "word": "背",
+    "reading": "せ",
+    "file": "audio/words-generated/n5-553.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-389",
+    "word": "手",
+    "reading": "て",
+    "file": "audio/words-generated/n5-389.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-107",
+    "word": "テーブル",
+    "reading": "テーブル",
+    "file": "audio/words-generated/n5-107.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-367",
+    "word": "歯",
+    "reading": "は",
+    "file": "audio/words-generated/n5-367.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-623",
+    "word": "目",
+    "reading": "め",
+    "file": "audio/words-generated/n5-623.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-174",
+    "word": "ラジカセ",
+    "reading": "ラジカセ",
+    "file": "audio/words-generated/n5-174.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-237",
+    "word": "絵",
+    "reading": "え",
+    "file": "audio/words-generated/n5-237.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-064",
+    "word": "コピーする",
+    "reading": "コピーする",
+    "file": "audio/words-generated/n5-064.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-354",
+    "word": "散歩",
+    "reading": "さんぽ",
+    "file": "audio/words-generated/n5-354.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-462",
+    "word": "掃除",
+    "reading": "そうじ",
+    "file": "audio/words-generated/n5-462.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-656",
+    "word": "練習",
+    "reading": "れんしゅう",
+    "file": "audio/words-generated/n5-656.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-012",
+    "word": "いい／よい",
+    "reading": "いい",
+    "file": "audio/words-generated/n5-012.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-621",
+    "word": "木",
+    "reading": "き",
+    "file": "audio/words-generated/n5-621.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-007",
+    "word": "アパート",
+    "reading": "アパート",
+    "file": "audio/words-generated/n5-007.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-023",
+    "word": "エレベーター",
+    "reading": "エレベーター",
+    "file": "audio/words-generated/n5-023.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-047",
+    "word": "カレー",
+    "reading": "カレー",
+    "file": "audio/words-generated/n5-047.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-050",
+    "word": "ギター",
+    "reading": "ギター",
+    "file": "audio/words-generated/n5-050.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-052",
+    "word": "キログラム",
+    "reading": "キログラム",
+    "file": "audio/words-generated/n5-052.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-053",
+    "word": "キロメートル",
+    "reading": "キロメートル",
+    "file": "audio/words-generated/n5-053.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-072",
+    "word": "シャワー",
+    "reading": "シャワー",
+    "file": "audio/words-generated/n5-072.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-076",
+    "word": "ストーブ",
+    "reading": "ストーブ",
+    "file": "audio/words-generated/n5-076.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-078",
+    "word": "スポーツ",
+    "reading": "スポーツ",
+    "file": "audio/words-generated/n5-078.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-082",
+    "word": "セーター",
+    "reading": "セーター",
+    "file": "audio/words-generated/n5-082.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-106",
+    "word": "テープ",
+    "reading": "テープ",
+    "file": "audio/words-generated/n5-106.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-108",
+    "word": "テープレコーダー",
+    "reading": "テープレコーダー",
+    "file": "audio/words-generated/n5-108.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-133",
+    "word": "ニュース",
+    "reading": "ニュース",
+    "file": "audio/words-generated/n5-133.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-136",
+    "word": "パーティー",
+    "reading": "パーティー",
+    "file": "audio/words-generated/n5-136.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-141",
+    "word": "バター",
+    "reading": "バター",
+    "file": "audio/words-generated/n5-141.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-145",
+    "word": "プール",
+    "reading": "プール",
+    "file": "audio/words-generated/n5-145.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-148",
+    "word": "ページ",
+    "reading": "ページ",
+    "file": "audio/words-generated/n5-148.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-165",
+    "word": "メートル",
+    "reading": "メートル",
+    "file": "audio/words-generated/n5-165.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-176",
+    "word": "レコード",
+    "reading": "レコード",
+    "file": "audio/words-generated/n5-176.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-558",
+    "word": "伯父／叔父",
+    "reading": "おじ",
+    "file": "audio/words-generated/n5-558.mp3",
+    "generator": "Open JTalk"
+  },
+  {
+    "id": "n5-085",
+    "word": "そうして／そして",
+    "reading": "そうして",
+    "file": "audio/words-generated/n5-085.mp3",
+    "generator": "Open JTalk"
+  }
+]

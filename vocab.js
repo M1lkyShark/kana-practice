@@ -13,7 +13,7 @@
   const BOOK_HIDDEN_KEY = 'n5VocabBookHiddenV1';
   const DAY = 86400000;
   const REVIEW_INTERVALS = [0, 1, 3, 7, 14, 30];
-  const DISABLED_WORD_AUDIO = new Set(['n5-057']);
+  const GENERATED_WORD_AUDIO = new Set(['n5-218','n5-070','n5-172','n5-538','n5-357','n5-304','n5-379','n5-396','n5-189','n5-048','n5-608','n5-612','n5-365','n5-559','n5-058','n5-077','n5-112','n5-146','n5-096','n5-501','n5-303','n5-135','n5-597','n5-152','n5-057','n5-074','n5-553','n5-389','n5-107','n5-367','n5-623','n5-174','n5-237','n5-064','n5-354','n5-462','n5-656','n5-012','n5-621','n5-007','n5-023','n5-047','n5-050','n5-052','n5-053','n5-072','n5-076','n5-078','n5-082','n5-106','n5-108','n5-133','n5-136','n5-141','n5-145','n5-148','n5-165','n5-176','n5-558','n5-085']);
   const chapterMap = new Map(DATA.chapters.map(chapter => [chapter.id, chapter]));
   const wordMap = new Map(DATA.words.map(word => [word.id, word]));
   let progress = loadJSON(PROGRESS_KEY, {});
@@ -416,10 +416,10 @@
     if (!word) return;
     if (audioPlayer) { audioPlayer.pause(); audioPlayer.currentTime = 0; }
     window.speechSynthesis?.cancel();
-    const audioSource = DISABLED_WORD_AUDIO.has(word.id) ? '' : word.audio;
+    const audioSource = GENERATED_WORD_AUDIO.has(word.id) ? 'audio/words-generated/' + word.id + '.mp3' : word.audio;
     const reading = preferredReading(word.reading);
     if (audioSource) {
-      audioPlayer = new Audio(audioSource + '?v=n5-3');
+      audioPlayer = new Audio(audioSource + '?v=n5-5');
       audioPlayer.play().catch(() => speakWithVoice(reading));
     } else speakWithVoice(reading);
   }
