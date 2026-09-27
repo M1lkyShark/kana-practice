@@ -85,6 +85,9 @@ body:after{content:"";position:fixed;inset:0;z-index:-1;background:linear-gradie
 }
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 
+/* Keep the study header clear by hiding the dashboard controls during a session. */
+body.session-active .appbar{display:none}
+
 /* Unified mode switch, lower-corner branding and kana chart */
 .mode-switch{gap:11px;border:1px solid rgba(222,204,255,.3);border-radius:999px;background:rgba(18,7,37,.24);padding:9px 16px 9px 10px;font-size:.84rem;font-weight:900;backdrop-filter:blur(14px);box-shadow:0 8px 24px rgba(10,2,28,.18)}
 .mode-switch span{width:34px;height:34px;border-radius:11px;font-size:.92rem;background:linear-gradient(135deg,#d765df,#8b58ee)}.mode-switch:hover{border-color:color-mix(in srgb,var(--accent2) 72%,white);background:color-mix(in srgb,var(--accent) 15%,rgba(18,7,37,.24))}
@@ -105,7 +108,7 @@ body:after{content:"";position:fixed;inset:0;z-index:-1;background:linear-gradie
 @media(max-width:960px){.vocab-home-page .appbar-actions,.chapter-page-body .appbar-actions{grid-column:2}}
 @media(max-width:820px){.word-home,[data-theme="navy"] .word-home{flex-direction:column}.word-home-brand-area,[data-theme="navy"] .word-home-brand-area{width:100%;min-height:38vh;align-self:stretch;justify-self:auto;align-items:flex-start;justify-content:flex-end;padding:0}.word-home-brand-area .corner-brand{display:none}.word-home-panel,[data-theme="navy"] .word-home-panel{flex:0 0 auto}.kana-panel{width:100%}}
 @media(max-width:640px){.unit-picker{grid-template-columns:1fr;gap:7px;margin:18px 0 12px}.unit-select-wrap select{min-height:46px}.kana-grid{gap:6px}.kana-tile{min-height:68px}.kana-glyph{font-size:1.55rem}}
-@media(max-width:500px){.mode-switch{padding:6px}.mode-switch b{display:none}.mode-switch span{width:28px;height:28px;font-size:.82rem}}
+@media(max-width:500px){.mode-switch{width:42px;height:42px;justify-content:center;gap:0;padding:6px;box-sizing:border-box}.mode-switch b{display:none}.mode-switch span{width:28px;height:28px;font-size:.82rem;flex:0 0 28px}}
 
 /* Cross-mode alignment fixes */
 .mode-switch span{box-shadow:none}

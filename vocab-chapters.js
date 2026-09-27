@@ -10,7 +10,7 @@
   const $$ = selector => [...document.querySelectorAll(selector)];
   const PROGRESS_KEY = 'n5VocabProgressV1';
   const SESSION_KEY = 'n5VocabSessionsV1';
-  const WORD_AUDIO_OVERRIDES = { 'n5-218':'audio/words/0228.mp3' };
+  const DISABLED_WORD_AUDIO = new Set(['n5-057']);
   const chapterMap = new Map(DATA.chapters.map(chapter => [chapter.id, chapter]));
   let progress = loadJSON(PROGRESS_KEY, {});
   let selectedChapter = null;
@@ -107,7 +107,7 @@
     if (!word) return;
     if (audioPlayer) { audioPlayer.pause(); audioPlayer.currentTime = 0; }
     window.speechSynthesis?.cancel();
-    const audioSource = word.audio || WORD_AUDIO_OVERRIDES[word.id];
+    const audioSource = DISABLED_WORD_AUDIO.has(word.id) ? '' : word.audio;
     const reading = preferredReading(word.reading);
     if (audioSource) {
       audioPlayer = new Audio(audioSource + '?v=n5-3');

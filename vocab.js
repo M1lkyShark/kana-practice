@@ -13,7 +13,7 @@
   const BOOK_HIDDEN_KEY = 'n5VocabBookHiddenV1';
   const DAY = 86400000;
   const REVIEW_INTERVALS = [0, 1, 3, 7, 14, 30];
-  const WORD_AUDIO_OVERRIDES = { 'n5-218':'audio/words/0228.mp3' };
+  const DISABLED_WORD_AUDIO = new Set(['n5-057']);
   const chapterMap = new Map(DATA.chapters.map(chapter => [chapter.id, chapter]));
   const wordMap = new Map(DATA.words.map(word => [word.id, word]));
   let progress = loadJSON(PROGRESS_KEY, {});
@@ -197,6 +197,7 @@
     if (!words.length) return;
     clearTimeout(feedbackTimer);
     clearTimeout(autoSpeakTimer);
+    document.body.classList.add('session-active');
     currentSession = {
       words,
       title,
@@ -402,6 +403,7 @@
     const returnURL = currentSession?.returnURL;
     currentSession = null;
     currentWord = null;
+    document.body.classList.remove('session-active');
     if (returnURL) { location.href = returnURL; return; }
     $('#sessionView').classList.add('hidden');
     $('#resultOverlay').classList.add('hidden');
@@ -414,7 +416,7 @@
     if (!word) return;
     if (audioPlayer) { audioPlayer.pause(); audioPlayer.currentTime = 0; }
     window.speechSynthesis?.cancel();
-    const audioSource = word.audio || WORD_AUDIO_OVERRIDES[word.id];
+    const audioSource = DISABLED_WORD_AUDIO.has(word.id) ? '' : word.audio;
     const reading = preferredReading(word.reading);
     if (audioSource) {
       audioPlayer = new Audio(audioSource + '?v=n5-3');
