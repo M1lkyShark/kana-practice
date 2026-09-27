@@ -13,7 +13,7 @@
   const BOOK_HIDDEN_KEY = 'n5VocabBookHiddenV1';
   const DAY = 86400000;
   const REVIEW_INTERVALS = [0, 1, 3, 7, 14, 30];
-  const GENERATED_WORD_AUDIO = new Set(['n5-218','n5-070','n5-172','n5-538','n5-357','n5-304','n5-379','n5-396','n5-189','n5-048','n5-608','n5-612','n5-365','n5-559','n5-058','n5-077','n5-112','n5-146','n5-096','n5-501','n5-303','n5-135','n5-597','n5-152','n5-057','n5-074','n5-553','n5-389','n5-107','n5-367','n5-623','n5-174','n5-237','n5-064','n5-354','n5-462','n5-656','n5-012','n5-621','n5-007','n5-023','n5-047','n5-050','n5-052','n5-053','n5-072','n5-076','n5-078','n5-082','n5-106','n5-108','n5-133','n5-136','n5-141','n5-145','n5-148','n5-165','n5-176','n5-558','n5-085']);
+  const DISABLED_WORD_AUDIO = new Set(['n5-057']);
   const chapterMap = new Map(DATA.chapters.map(chapter => [chapter.id, chapter]));
   const wordMap = new Map(DATA.words.map(word => [word.id, word]));
   let progress = loadJSON(PROGRESS_KEY, {});
@@ -245,6 +245,7 @@
   }
   function fillWordDetails(word) {
     currentWord = word;
+    $('#speakBtn').classList.toggle('hidden', !hasWordAudio(word));
     $('#wordMain').textContent = word.word;
     $('#wordReading').textContent = word.reading;
     $('#wordRomaji').textContent = word.romaji;
@@ -259,17 +260,17 @@
     const index = currentSession.previewIndex;
     const word = currentSession.previews[index];
     fillWordDetails(word);
-    $('#questionLabel').textContent = '新词预习 · 自动朗读';
+    $('#questionLabel').textContent = hasWordAudio(word) ? '新词预习 · 自动朗读' : '新词预习';
     $('#nextCard').innerHTML = index === currentSession.previews.length - 1 ? '开始练习 <span>→</span>' : '下一个 <span>→</span>';
     setSessionProgress(index + 1, currentSession.previews.length);
-    autoSpeakTimer = setTimeout(() => speak(word), 220);
+    if (hasWordAudio(word)) autoSpeakTimer = setTimeout(() => speak(word), 220);
   }
   function beginQuestions() {
     const questions = [];
     currentSession.words.forEach(word => {
       questions.push({ type:'meaning', word });
       questions.push({ type:'reverse', word });
-      questions.push({ type:'listening', word });
+      if (hasWordAudio(word)) questions.push({ type:'listening', word });
     });
     currentSession.questions = shuffled(questions);
     currentSession.questionIndex = 0;
@@ -412,25 +413,14 @@
     window.scrollTo(0, 0);
   }
 
-  function speak(word) {
-    if (!word) return;
-    if (audioPlayer) { audioPlayer.pause(); audioPlayer.currentTime = 0; }
-    window.speechSynthesis?.cancel();
-    const audioSource = GENERATED_WORD_AUDIO.has(word.id) ? 'audio/words-generated/' + word.id + '.mp3' : word.audio;
-    const reading = preferredReading(word.reading);
-    if (audioSource) {
-      audioPlayer = new Audio(audioSource + '?v=n5-5');
-      audioPlayer.play().catch(() => speakWithVoice(reading));
-    } else speakWithVoice(reading);
+  function hasWordAudio(word) {
+    return Boolean(word?.audio) && !DISABLED_WORD_AUDIO.has(word.id);
   }
-  function speakWithVoice(text) {
-    if (!('speechSynthesis' in window)) return;
-    const utterance = new SpeechSynthesisUtterance(preferredReading(text));
-    utterance.lang = 'ja-JP';
-    utterance.rate = .82;
-    const voices = speechSynthesis.getVoices();
-    utterance.voice = voices.find(voice => /^ja[-_]/i.test(voice.lang)) || null;
-    speechSynthesis.speak(utterance);
+  function speak(word) {
+    if (!hasWordAudio(word)) return;
+    if (audioPlayer) { audioPlayer.pause(); audioPlayer.currentTime = 0; }
+    audioPlayer = new Audio(word.audio + '?v=n5-5');
+    audioPlayer.play().catch(() => {});
   }
   function playTone(success) {
     if (!soundEnabled) return;
@@ -478,7 +468,8 @@
       const state = wordProgress(word.id);
       const status = libraryMode === 'book' ? '答错 ' + state.wrong + ' 次' : state.mastery >= 5 ? '已掌握' : state.seen ? '熟练度 ' + state.mastery + '/5' : '未学习';
       const remove = libraryMode === 'book' ? '<button class="library-remove" data-remove-book="' + word.id + '" type="button">移除</button>' : '';
-      return '<div class="library-item ' + (libraryMode === 'book' ? 'book-item' : '') + '" style="--chapter:' + chapterInfo.color + '"><div class="library-word"><strong>' + escapeHTML(word.word) + '</strong><span>' + escapeHTML(word.reading) + ' · ' + escapeHTML(word.romaji) + ' · ' + status + '</span></div><div class="library-meaning">' + escapeHTML(word.meaning) + '</div><div class="library-item-actions"><button class="library-speak" data-speak-word="' + word.id + '" type="button" aria-label="朗读">♪</button>' + remove + '</div></div>';
+      const speakButton = hasWordAudio(word) ? '<button class="library-speak" data-speak-word="' + word.id + '" type="button" aria-label="朗读">♪</button>' : '';
+      return '<div class="library-item ' + (libraryMode === 'book' ? 'book-item' : '') + '" style="--chapter:' + chapterInfo.color + '"><div class="library-word"><strong>' + escapeHTML(word.word) + '</strong><span>' + escapeHTML(word.reading) + ' · ' + escapeHTML(word.romaji) + ' · ' + status + '</span></div><div class="library-meaning">' + escapeHTML(word.meaning) + '</div><div class="library-item-actions">' + speakButton + remove + '</div></div>';
     }).join('') || '<p class="library-empty">' + (libraryMode === 'book' ? '单词本目前是空的。答错的词会自动出现在这里。' : '没有找到匹配的单词。') + '</p>';
   }
   function renderHistory() {

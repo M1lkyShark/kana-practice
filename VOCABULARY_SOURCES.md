@@ -22,12 +22,4 @@
 - 许可：CC BY-NC 4.0
 - 本项目的修改：仅提取 N5 相关字段，转换格式并修正少量释义；相关内容仅供非商业学习使用。
 
-## Open JTalk 补充语音
-
-- 项目：https://open-jtalk.sourceforge.net/
-- 用途：为原词库中没有独立录音的 60 个词生成本地日语发音，文件位于 `audio/words-generated/`。
-- Open JTalk 许可：Modified BSD License
-- 使用音色：HTS Voice “Mei”，Copyright (c) 2009–2013 Nagoya Institute of Technology, Department of Computer Science，依据 CC BY 3.0 使用。
-- 生成清单：`data/generated-word-audio.json`
-
 生成后的词库位于 `data/n5-vocab.js`。本项目不声称该列表是 JLPT 官方词表。
